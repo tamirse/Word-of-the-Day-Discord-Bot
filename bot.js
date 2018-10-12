@@ -12,18 +12,23 @@ bot.on("ready", () => {
   console.log("I am ready!");
 });
 
+// Bot listens to chat messages, taking action on command
 bot.on("message", message => {
+  // user entered command "!wotd", send the word of the day in chat
   if (message.content.startsWith(`${PREFIX}wotd`)) {
     let date = curDate.toLocaleDateString().replace(/-/g, "_");
 
+    // if word exists for today, format it (using discord's rich embed) and send in chat
     if (words[date]) {
       const wotdEmbed = new Discord.RichEmbed()
         .setColor("#0099ff")
         .setTitle("__WORD OF THE DAY__: " + words[date]["Nominative"]);
 
-      // Add the word english translation + 5 cases
+      // Add the word's english translation + 5 cases
       for (let key in words[date]) {
-        wotdEmbed.addField(key + ":", words[date][key], true);
+        let inline = key == "Notes" ? false : true;
+        let value = words[date][key] ? words[date][key] : " ";
+        wotdEmbed.addField(key + ":", value, inline);
       }
 
       wotdEmbed.addField(
@@ -32,7 +37,6 @@ bot.on("message", message => {
       );
 
       message.channel.send(wotdEmbed);
-      message.channel.send(message.channel.toString());
     } else {
       message.channel.send(
         "Oops! someone forgot to add more words to the list!"

@@ -9,5 +9,16 @@
     "Short partitive plural": "Telefone",
     "Sentence": "Ma kasutan oma telefoni iga päev",
     "Translation": "I use my phone every day"
+  },
+  "2018_10_12": {
+    "Notes": "Both a noun and an adjective",
+    "English": "Acquaintance; Familiar",
+    "Nominative": "Tuttav",
+    "Genitive": "Tuttava",
+    "Partitive": "Tuttavat",
+    "Short illative": "Tuttava",
+    "Short partitive plural": "Tuttava",
+    "Sentence": "Mul on siin vähe tuttavaid.",
+    "Translation": "I have few acquaintances here."
   }
 }
