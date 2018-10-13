@@ -5,6 +5,7 @@ const words = require("./words.json");
 // Initialize Discord Bot
 const bot = new Discord.Client();
 const PREFIX = "!";
+const MSEC_PER_DAY = 86400000;
 
 const curDate = new Date();
 let interval;
@@ -29,7 +30,7 @@ function sendWord(message) {
     // Add the word's english translation + 5 cases
     for (let key in words[date]) {
       let inline = key == "Notes" ? false : true;
-      let value = words[date][key] ? words[date][key] : " ";
+      let value = words[date][key] ? words[date][key] : "\u200b";
       wotdEmbed.addField(key + ":", value, inline);
     }
 
@@ -59,7 +60,7 @@ bot.on("message", message => {
     if (is_member_mod) {
       console.log("Bot started!");
       sendWord(message);
-      interval = bot.setInterval(sendWord, 10000, message);
+      interval = bot.setInterval(sendWord, MSEC_PER_DAY, message);
     }
   }
 
@@ -69,6 +70,11 @@ bot.on("message", message => {
       console.log("Bot stopped!");
       bot.clearInterval(interval);
     }
+  }
+
+  // thank user
+  if (message.content.startsWith(`${PREFIX}good bot`)) {
+    message.channel.send("Thanks");
   }
 });
 

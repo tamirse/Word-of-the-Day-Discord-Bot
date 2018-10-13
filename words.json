@@ -6,19 +6,74 @@
     "Genitive": "Telefoni",
     "Partitive": "Telefoni",
     "Short illative": "Telefoni",
-    "Short partitive plural": "Telefone",
+    "Partitive plural": "Telefone",
     "Sentence": "Ma kasutan oma telefoni iga päev",
     "Translation": "I use my phone every day"
   },
-  "2018_10_13": {
+  "2018_10_12": {
     "Notes": "Both a noun and an adjective",
     "English": "Acquaintance; Familiar",
     "Nominative": "Tuttav",
     "Genitive": "Tuttava",
     "Partitive": "Tuttavat",
-    "Short illative": "Tuttava",
-    "Short partitive plural": "Tuttava",
+    "Short illative": "",
+    "Partitive plural": "Tuttavaid",
     "Sentence": "Mul on siin vähe tuttavaid.",
     "Translation": "I have few acquaintances here."
+  },
+  "2018_10_13": {
+    "Notes": "",
+    "English": "Window",
+    "Nominative": "Aken",
+    "Genitive": "Akna",
+    "Partitive": "Akent",
+    "Short illative": "",
+    "Partitive plural": "",
+    "Sentence": "Mul läks aken katki.",
+    "Translation": "My window broke."
+  },
+  "2018_10_14": {
+    "Notes": "Genitive is long /o:/, partitive and short illative is overlong /o::/",
+    "English": "Steering wheel; wheel (of a boat or ship)",
+    "Nominative": "Rool",
+    "Genitive": "Rooli",
+    "Partitive": "Rooli",
+    "Short illative": "Rooli",
+    "Partitive plural": "Roole",
+    "Sentence": "Jeesus, võta rool!",
+    "Translation": "Jesus, take the wheel!"
+  },
+  "2018_10_15": {
+    "Notes": "Palatalised /'kylʲm/. Partitive is long /'kylʲ:mɑ/.",
+    "English": "Cold",
+    "Nominative": "Külm",
+    "Genitive": "Külma",
+    "Partitive": "Külma",
+    "Short illative": "Külma",
+    "Partitive plural": "Külmi",
+    "Sentence": "Ei kannata sellise külmaga õue minna.",
+    "Translation": "It's too cold to go outside (lit. 'It is not tolerable to go outside with such a cold')"
+  },
+  "2018_10_16": {
+    "Notes": "Short illative and Partitive plural are uncommon.",
+    "English": "Traffic",
+    "Nominative": "Liiklus",
+    "Genitive": "Liikluse",
+    "Partitive": "Liiklust",
+    "Short illative": "Liiklusse",
+    "Partitive plural": "Liiklusi",
+    "Sentence": "Siin on päris tihe liiklus.",
+    "Translation": "The traffic is pretty heavy here."
+  },
+  "2018_10_17": {
+    "Notes": "Is a compound of maa + ilm, but has an unique pronunciation. Listen to native speakers pronouncing this word! If you hear it pronounced normally, with t",
+    "English": "World",
+    "Nominative": "Maailm",
+    "Genitive": "Maailma",
+    "Partitive": "Maailma",
+    "Short illative": "Maailma",
+    "Partitive plural": "Maailmu",
+    "Sentence": "",
+    "Translation": ""
   }
 }
