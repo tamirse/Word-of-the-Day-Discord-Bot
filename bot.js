@@ -7,6 +7,7 @@ const bot = new Discord.Client();
 const PREFIX = "!";
 
 const curDate = new Date();
+let interval;
 
 bot.on("ready", () => {
   console.log("I am ready!");
@@ -47,13 +48,20 @@ function sendWord(message) {
 bot.on("message", message => {
   // user entered command "!wotd", send the word of the day in chat
   if (message.content.startsWith(`${PREFIX}wotd`)) {
+    console.log("Bot sent wotd!");
     sendWord(message);
-    try {
-      console.log(bot.channels);
-      console.log(bot.guilds);
-    } catch (error) {
-      console.log(error);
-    }
+  }
+
+  // starts automatic sending wotd messages
+  if (message.content.startsWith(`${PREFIX}start`)) {
+    console.log("Bot started!");
+    interval = bot.setInterval(sendWord, 10000, message);
+  }
+
+  // stops automatic sending wotd messages
+  if (message.content.startsWith(`${PREFIX}stop`)) {
+    console.log("Bot stopped!");
+    bot.clearInterval(interval);
   }
 });
 
