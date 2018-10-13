@@ -46,6 +46,8 @@ function sendWord(message) {
 
 // Bot listens to chat messages, taking action on command
 bot.on("message", message => {
+  let is_member_mod = message.member.hasPermission("MANAGE_NICKNAMES");
+
   // user entered command "!wotd", send the word of the day in chat
   if (message.content.startsWith(`${PREFIX}wotd`)) {
     console.log("Bot sent wotd!");
@@ -54,14 +56,19 @@ bot.on("message", message => {
 
   // starts automatic sending wotd messages
   if (message.content.startsWith(`${PREFIX}start`)) {
-    console.log("Bot started!");
-    interval = bot.setInterval(sendWord, 10000, message);
+    if (is_member_mod) {
+      console.log("Bot started!");
+      sendWord(message);
+      interval = bot.setInterval(sendWord, 10000, message);
+    }
   }
 
   // stops automatic sending wotd messages
   if (message.content.startsWith(`${PREFIX}stop`)) {
-    console.log("Bot stopped!");
-    bot.clearInterval(interval);
+    if (is_member_mod) {
+      console.log("Bot stopped!");
+      bot.clearInterval(interval);
+    }
   }
 });
 
