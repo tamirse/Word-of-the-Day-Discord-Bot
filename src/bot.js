@@ -85,11 +85,11 @@ bot.on("message", message => {
   if (message.content.startsWith(`${PREFIX}help`)) {
     let help = "Commands for the word of the day bot:\n";
     help += "```";
-    help += "$wotd - Send the word of the day\n";
+    help += "$wotd  - Send the word of the day\n";
     help +=
-      "$start - Starts automatically sending the word of the day each day (only mods can use this)\n";
+      "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n";
     help +=
-      "$start - Stops automatically sending the word of the day each day (only mods can use this)\n";
+      "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n";
     help += "$good bot - Shows your appreciation for the bot\n";
     help += "```";
     message.channel.send(help);
