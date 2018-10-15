@@ -1,3 +1,5 @@
-# word of the day discord bot
+# Word of the Day discord bot, for the estonian language
 
-using discord.js library for handling discord stuff
+Send a new word in estonian every day
+
+using discord.js library for handling discord API
