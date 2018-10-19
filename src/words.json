@@ -28,7 +28,7 @@
     "Genitive": "Akna",
     "Partitive": "Akent",
     "Short illative": "",
-    "Partitive plural": "",
+    "Partitive plural": "Aknaid",
     "Sentence": "Mul läks aken katki.",
     "Translation": "My window broke."
   },
@@ -39,7 +39,7 @@
     "Genitive": "Rooli",
     "Partitive": "Rooli",
     "Short illative": "Rooli",
-    "Partitive plural": "Roole",
+    "Short partitive plural": "Roole",
     "Sentence": "Jeesus, võta rool!",
     "Translation": "Jesus, take the wheel!"
   },
@@ -50,18 +50,18 @@
     "Genitive": "Külma",
     "Partitive": "Külma",
     "Short illative": "Külma",
-    "Partitive plural": "Külmi",
+    "Short partitive plural": "Külmi",
     "Sentence": "Ei kannata sellise külmaga õue minna.",
     "Translation": "It's too cold to go outside (lit. 'It is not tolerable to go outside with such a cold')"
   },
   "2018_10_19": {
-    "Notes": "Short illative and Partitive plural are uncommon.",
+    "Notes": "Short illative and short partitive plural are uncommon.",
     "English": "Traffic",
     "Nominative": "Liiklus",
     "Genitive": "Liikluse",
     "Partitive": "Liiklust",
     "Short illative": "Liiklusse",
-    "Partitive plural": "Liiklusi",
+    "Short partitive plural": "Liiklusi",
     "Sentence": "Siin on päris tihe liiklus.",
     "Translation": "The traffic is pretty heavy here."
   },
@@ -72,8 +72,42 @@
     "Genitive": "Maailma",
     "Partitive": "Maailma",
     "Short illative": "Maailma",
-    "Partitive plural": "Maailmu",
-    "Sentence": "",
-    "Translation": ""
-  }
+    "Short partitive plural": "Maailmu",
+    "Sentence": "Maailmas on palju kurja.",
+    "Translation": "There is a lot evil in the world."
+  },
+    "2018_10_21": {
+    "Notes": "",
+    "English": "Car",
+    "Nominative": "Auto",
+    "Genitive": "Auto",
+    "Partitive": "Autot",
+    "Short illative": "",
+    "Partitive plural": "Autosid",
+    "Sentence": "Ma ostsin eile endale uue auto.",
+    "Translation": "I bought myself a new car yesterday."
+  },
+    "2018_10_22": {
+    "Notes": "Partitive is long /n:d̥/. Colloqually also means 'guy', 'fellow', 'dude'.",
+    "English": "Brother",
+    "Nominative": "Vend",
+    "Genitive": "Venna",
+    "Partitive": "Venda",
+    "Short illative": "Venda",
+    "Short partitive plural": "Vendi",
+    "Sentence": "Mingi kõva vend oled vä?",
+    "Translation": "Are you some sort of tough guy?"
+  },
+    "2018_10_23": {
+    "Notes": "Considered rude in formal usage. Both an adjective and a noun. Colloquially just means 'bad', 'shit'.",
+    "English": "Shit",
+    "Nominative": "Sitt",
+    "Genitive": "Sita",
+    "Partitive": "Sitta",
+    "Short illative": "",
+    "Partitive plural": "Sitte",
+    "Sentence": "Mul on jumala sitt olla.",
+    "Translation": "I feel so shit."
+  },
 }
+
