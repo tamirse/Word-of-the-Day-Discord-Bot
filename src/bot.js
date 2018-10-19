@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const auth = require("./auth.json");
 const words = require("./words.json");
+const winston = require("winston");
 
 // to add this bot: https://discordapp.com/oauth2/authorize?&client_id=493445812412481540&scope=bot&permissions=2048
 
@@ -10,10 +11,17 @@ const PREFIX = "$";
 const MSEC_PER_DAY = 86400000;
 
 const curDate = new Date();
-let interval;
+let interval; // interval object for the bot
 
-bot.on("ready", () => {
-  console.log("I am ready!");
+// initialize logger
+const logger = winston.createLogger({
+  level: "info",
+  format: winston.format.json(),
+  transports: [
+    new winston.transports.File({
+      filename: "../logs/combined.log"
+    })
+  ]
 });
 
 /**
@@ -48,6 +56,24 @@ function sendWord(message) {
   }
 }
 
+/**
+ * logs the message to the logfile
+ * @param {Message} discord_message
+ */
+function logMessage(discord_message) {
+  logger.log({
+    level: "info",
+    message: discord_message.content,
+    member: discord_message.member.displayName,
+    channel: discord_message.channel.name,
+    time: curDate.toString()
+  });
+}
+
+bot.on("ready", () => {
+  console.log("I am ready!");
+});
+
 // Bot listens to chat messages, taking action on command
 bot.on("message", message => {
   // checks if user has MANAGE_NICKNAMES permissions (which means he is a mod in the estonian channel)
@@ -56,6 +82,7 @@ bot.on("message", message => {
   // user entered command "$wotd", send the word of the day in chat
   if (message.content.startsWith(`${PREFIX}wotd`)) {
     console.log("Bot sent wotd!");
+    logMessage(message);
     sendWord(message);
   }
 
@@ -63,6 +90,7 @@ bot.on("message", message => {
   if (message.content.startsWith(`${PREFIX}start`)) {
     if (is_member_mod) {
       console.log("Bot started!");
+      logMessage(message);
       sendWord(message);
       interval = bot.setInterval(sendWord, MSEC_PER_DAY, message);
     }
@@ -72,16 +100,24 @@ bot.on("message", message => {
   if (message.content.startsWith(`${PREFIX}stop`)) {
     if (is_member_mod) {
       console.log("Bot stopped!");
+      logMessage(message);
       bot.clearInterval(interval);
     }
   }
 
   // thank user
   if (message.content.startsWith(`${PREFIX}good bot`)) {
+    logMessage(message);
     message.channel.send("Thanks");
   }
 
-  // help
+  // woofs user
+  if (message.content.startsWith(`${PREFIX}good boy`)) {
+    logMessage(message);
+    message.channel.send("Woof!");
+  }
+
+  // help command
   if (message.content.startsWith(`${PREFIX}help`)) {
     let help = "Commands for the word of the day bot:\n";
     help += "```";
