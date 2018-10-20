@@ -99,10 +99,10 @@ function handleCommands(message) {
       console.log("Bot stopped!");
       logMessage(message);
       bot.clearInterval(interval);
+    } else {
+      console.log("Bot did not stop, user was not a moderator or admin");
+      logMessage(message);
     }
-  } else {
-    console.log("Bot did not stop, user was not a moderator or admin");
-    logMessage(message);
   }
 
   // thanks user
