@@ -104,7 +104,6 @@ function handleCommands(message) {
     console.log("Bot did not stop, user was not a moderator or admin");
     logMessage(message);
   }
-  }
 
   // thanks user
   if (command == "good bot") {
