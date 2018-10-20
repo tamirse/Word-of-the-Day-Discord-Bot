@@ -1,4 +1,4 @@
-# Word of the Day discord bot, for the Estonian Language discord server
+# Word of the Day discord bot - for the Estonian Language discord server
 
 Send a new word in estonian every day
 
