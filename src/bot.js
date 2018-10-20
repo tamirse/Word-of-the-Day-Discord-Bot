@@ -87,6 +87,9 @@ function handleCommands(message) {
       logMessage(message);
       sendWord(message);
       interval = bot.setInterval(sendWord, MSEC_PER_DAY, message);
+    } else {
+      console.log("Bot did not start, user was not a moderator or admin");
+      logMessage(message);
     }
   }
 
@@ -97,22 +100,29 @@ function handleCommands(message) {
       logMessage(message);
       bot.clearInterval(interval);
     }
+  } else {
+    console.log("Bot did not stop, user was not a moderator or admin");
+    logMessage(message);
+  }
   }
 
   // thanks user
   if (command == "good bot") {
+    console.log("Bot was a good bot!");
     logMessage(message);
     message.channel.send("Thanks");
   }
 
   // woofs user
   if (command == "good boy") {
+    console.log("Bot was a good boy!");
     logMessage(message);
     message.channel.send("Woof!");
   }
 
   // help command
   if (command == "help") {
+    console.log("Bot helped!");
     let help = "Commands for the word of the day bot:\n";
     help += "```";
     help += "$wotd  - Send the word of the day\n";
