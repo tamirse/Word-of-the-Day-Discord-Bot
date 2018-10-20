@@ -65,7 +65,14 @@ function sendWord(message) {
  * handles the given command and executes the bot behaviour
  * @param {string} command
  */
-function handleCommands(command) {
+function handleCommands(message) {
+  let command = message.content.substring(1); // get command string
+
+  // checks if user is a mod or admin
+  const is_member_mod = message.member.roles.some(r =>
+    ["Administrator", "Moderators", "Moderator"].includes(r.name)
+  );
+
   // user entered command "$wotd", send the word of the day in chat
   if (command == "wotd") {
     console.log("Bot sent wotd!");
@@ -156,17 +163,11 @@ bot.on("message", message => {
   // Ignore all bots
   if (message.author.bot) return;
 
-  // checks if user is a mod or admin
-  const is_member_mod = message.member.roles.some(r =>
-    ["Administrator", "Moderators", "Moderator"].includes(r.name)
-  );
-
   // ignore non-command messages
   if (message.content[0] != PREFIX) return;
-  let command = message.content.substring(1); // get command string
 
   // take relevant action according to the given command
-  handleCommands(command);
+  handleCommands(message);
 });
 
 bot.login(auth.token);
