@@ -108,5 +108,27 @@
     "Short partitive plural": "Sitte",
     "Sentence": "Mul on jumala sitt olla.",
     "Translation": "I feel so shit."
-  }
+   },
+  "2018_10_24": {
+    "Notes": "Also can be the singular imperative of 'tegema' - 'to do'.",
+    "English": "Road; Tea",
+    "Nominative": "Tee",
+    "Genitive": "Tee",
+    "Partitive": "Teed",
+    "Short illative": "",
+    "Partitive plural": "Teid",
+    "Sentence": "Mulle meeldib kummelitee.",
+    "Translation": "I like chamomile tea."
+  },
+  "2018_10_25": {
+    "Notes": "Also used in phrases like 'süda paha' - lit. 'heart bad' but means something like 'I feel nauseous'.",
+    "English": "Bad, evil",
+    "Nominative": "Paha",
+    "Genitive": "Paha",
+    "Partitive": "Paha",
+    "Short illative": "",
+    "Short partitive plural": "Pahu",
+    "Sentence": "Ta on pahas tujus.",
+    "Translation": "He's in a bad mood."
+  },
 }
