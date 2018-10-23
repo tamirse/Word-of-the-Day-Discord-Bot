@@ -108,7 +108,7 @@
     "Short partitive plural": "Sitte",
     "Sentence": "Mul on jumala sitt olla.",
     "Translation": "I feel so shit."
-   },
+  },
   "2018_10_24": {
     "Notes": "Also can be the singular imperative of 'tegema' - 'to do'.",
     "English": "Road; Tea",
@@ -131,4 +131,26 @@
     "Sentence": "Ta on pahas tujus.",
     "Translation": "He's in a bad mood."
   },
+  "2018_10_26": {
+    "Notes": "",
+    "English": "Previous",
+    "Nominative": "Eelmine",
+    "Genitive": "Eelmise",
+    "Partitive": "Eelmist",
+    "Short illative": "Eelmisse",
+    "Short Partitive plural": "Eelmisi",
+    "Sentence": "Eelmisel nädalal jäin haigeks.",
+    "Translation": "Last week I got sick."
+  },
+  "2018_10_27": {
+    "Notes": "",
+    "English": "Bad",
+    "Nominative": "Halb",
+    "Genitive": "Halva",
+    "Partitive": "Halba",
+    "Short illative": "Halba",
+    "Short Partitive plural": "Halbu",
+    "Sentence": "See liha on halvaks läinud.",
+    "Translation": "This meat has gone bad."
+  }
 }
