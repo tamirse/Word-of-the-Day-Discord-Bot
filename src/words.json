@@ -152,5 +152,27 @@
     "Short Partitive plural": "Halbu",
     "Sentence": "See liha on halvaks läinud.",
     "Translation": "This meat has gone bad."
+  },
+  "2018_10_29": {
+    "Notes": "",
+    "English": "Work",
+    "Nominative": "Töö",
+    "Genitive": "Töö",
+    "Partitive": "Tööd",
+    "Short illative": "",
+    "Short Partitive plural": "Töid",
+    "Sentence": "Mulle ei meeldi tööd teha.",
+    "Translation": "I don't like to work"
+  },
+  "2018_10_30": {
+    "Notes": "",
+    "English": "Investment",
+    "Nominative": "Investeering",
+    "Genitive": "Investeeringu",
+    "Partitive": "Investeeringut",
+    "Short illative": "",
+    "Partitive plural": "Investeeringuid",
+    "Sentence": "Olen teinud palju halbu investeeringuid.",
+    "Translation": "I have made a lot of bad investments."
   }
 }
