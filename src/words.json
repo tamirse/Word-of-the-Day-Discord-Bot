@@ -174,5 +174,38 @@
     "Partitive plural": "Investeeringuid",
     "Sentence": "Olen teinud palju halbu investeeringuid.",
     "Translation": "I have made a lot of bad investments."
-  }
+  },
+  "2018_11_01": {
+    "Notes": "This word has various other meanings when used colloquially.",
+    "English": "Ill, sick",
+    "Nominative": "Haige",
+    "Genitive": "Haige",
+    "Partitive": "Haiget",
+    "Short illative": "",
+    "Partitive plural": "Haigeid",
+    "Sentence": "Pauli pole kohal, sest ta on haige.",
+    "Translation": "Paul isn't here, because he's sick."
+  },
+   "2018_11_02": {
+    "Notes": "",
+    "English": "Woman, wife",
+    "Nominative": "Naine",
+    "Genitive": "Naise",
+    "Partitive": "Naist",
+    "Short illative": "",
+    "Partitive plural": "Naisi",
+    "Sentence": "Mul naine kodus pidevalt viriseb mu kallal.",
+    "Translation": "My wife's always nagging on me at home."
+  },
+    "2018_11_02": {
+    "Notes": "Comes from 'siduma' - 'to tie'.",
+    "English": "Clutch",
+    "Nominative": "Sidur",
+    "Genitive": "Siduri",
+    "Partitive": "Sidurit",
+    "Short illative": "",
+    "Partitive plural": "Sidureid",
+    "Sentence": "Lase sidur üles.",
+    "Translation": "Release the clutch."
+  },
 }
