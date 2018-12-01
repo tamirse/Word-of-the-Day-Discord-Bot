@@ -52,7 +52,7 @@ function sendWord(message) {
 
     wotdEmbed.addField(
       "\u200b",
-      "Give me a sentence using the word " + words[date]["Nominative"]
+      `Give me a sentence using the word ${words[date]["Nominative"]}!`
     );
 
     message.channel.send(wotdEmbed);
