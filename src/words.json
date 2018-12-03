@@ -88,17 +88,6 @@
     "Translation": "I bought myself a new car yesterday."
   },
   "2018_12_2": {
-    "Notes": "Partitive is long /n:d̥/. Colloqually also means 'guy', 'fellow', 'dude'.",
-    "English": "Brother",
-    "Nominative": "Vend",
-    "Genitive": "Venna",
-    "Partitive": "Venda",
-    "Short illative": "Venda",
-    "Short partitive plural": "Vendi",
-    "Sentence": "Mingi kõva vend oled vä?",
-    "Translation": "Are you some sort of tough guy?"
-  },
-  "2018_12_3": {
     "Notes": "Considered rude in formal usage. Both an adjective and a noun. Colloquially just means 'bad', 'shit'.",
     "English": "Shit",
     "Nominative": "Sitt",
@@ -108,6 +97,17 @@
     "Short partitive plural": "Sitte",
     "Sentence": "Mul on jumala sitt olla.",
     "Translation": "I feel so shit."
+  },
+  "2018_12_3": {
+    "Notes": "Partitive is long /n:d̥/. Colloqually also means 'guy', 'fellow', 'dude'.",
+    "English": "Brother",
+    "Nominative": "Vend",
+    "Genitive": "Venna",
+    "Partitive": "Venda",
+    "Short illative": "Venda",
+    "Short partitive plural": "Vendi",
+    "Sentence": "Mingi kõva vend oled vä?",
+    "Translation": "Are you some sort of tough guy?"
   },
   "2018_12_4": {
     "Notes": "Also can be the singular imperative of 'tegema' - 'to do'.",
