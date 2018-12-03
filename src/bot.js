@@ -85,11 +85,17 @@ function handleCommands(message) {
     if (is_member_mod) {
       console.log("Bot started!");
       logMessage(message);
+      message.channel.send(
+        "Bot started! A new word will be posted every 24h from now."
+      );
       sendWord(message);
       interval = bot.setInterval(sendWord, MSEC_PER_DAY, message);
     } else {
       console.log("Bot did not start, user was not a moderator or admin");
       logMessage(message);
+      message.channel.send(
+        "Bot did not start, user must be a moderator or admin to use this command."
+      );
     }
   }
 
@@ -98,10 +104,16 @@ function handleCommands(message) {
     if (is_member_mod) {
       console.log("Bot stopped!");
       logMessage(message);
+      message.channel.send(
+        "Bot stopped! New words will not be posted automatically."
+      );
       bot.clearInterval(interval);
     } else {
       console.log("Bot did not stop, user was not a moderator or admin");
       logMessage(message);
+      message.channel.send(
+        "Bot did not stop, user must be a moderator or admin to use this command."
+      );
     }
   }
 
@@ -130,6 +142,7 @@ function handleCommands(message) {
     help +=
       "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n";
     help += "$good bot - Shows your appreciation for the bot\n";
+    help += "$good boy - Woof!\n";
     help += "```";
     message.channel.send(help);
   }
