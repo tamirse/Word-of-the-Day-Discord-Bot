@@ -284,5 +284,38 @@
     "Short Partitive plural": "",
     "Sentence": "Vesi on tervisele kasulik",
     "Translation": "Water is good for your health"
+  },
+  "2018_12_20": {
+    "Notes": "",
+    "English": "Bad",
+    "Nominative": "Halb",
+    "Genitive": "Halva",
+    "Partitive": "Halba",
+    "Short illative": "Halba",
+    "Short Partitive plural": "Halbu",
+    "Sentence": "See liha on halvaks läinud.",
+    "Translation": "This meat has gone bad."
+  },
+  "2018_12_21": {
+    "Notes": "",
+    "English": "Work",
+    "Nominative": "Töö",
+    "Genitive": "Töö",
+    "Partitive": "Tööd",
+    "Short illative": "",
+    "Short Partitive plural": "Töid",
+    "Sentence": "Mulle ei meeldi tööd teha.",
+    "Translation": "I don't like to work"
+  },
+  "2018_12_24": {
+    "Notes": "",
+    "English": "Santa ",
+    "Nominative": "Jõuluvana",
+    "Genitive": "Jõuluvana",
+    "Partitive": "Jõuluvana",
+    "Short illative": "",
+    "Partitive plural": "Jõuluvanasid",
+    "Sentence": "Jõuluvanal on pikk habe.",
+    "Translation": "Santa has a long beard."
   }
 }

@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const auth = require("./auth.json");
 const words = require("./words.json");
-const winston = require("winston");
+const dictWords = require("./dictionary_words_um.json");
+const winston = require("winston"); // used for logging
 
 // to add this bot: https://discordapp.com/oauth2/authorize?&client_id=493445812412481540&scope=bot&permissions=2048
 
@@ -27,6 +28,14 @@ const logger = winston.createLogger({
     })
   ]
 });
+
+/**
+ * capitalizes the first letter of the string
+ * @param {string} string
+ */
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 /**
  * sends the word of the day
@@ -61,12 +70,54 @@ function sendWord(message) {
   }
 }
 
+function sendCustomWord(message, word) {
+  if (dictWords[word]) {
+    const wotdEmbed = new Discord.RichEmbed()
+      .setColor("#0099ff")
+      .setTitle("__WORD OF THE DAY__: " + dictWords[word][0]["word"]);
+
+    // Add the word's english translation + other data
+    for (let homonym in dictWords[word]) {
+      let wordObject = dictWords[word][homonym];
+
+      for (let key in wordObject) {
+        let inline = key == "Notes" ? false : true;
+        let value = wordObject[key] ? wordObject[key] : "\u200b";
+
+        if (typeof value == "object") {
+          for (anotherKey in value) {
+            let val =
+              value[anotherKey].length > 0 ? value[anotherKey] : "\u200b";
+            console.log(val);
+            wotdEmbed.addField(
+              capitalizeFirstLetter(anotherKey) + ":",
+              val,
+              inline
+            );
+          }
+        } else {
+          wotdEmbed.addField(capitalizeFirstLetter(key) + ":", value, inline);
+        }
+      }
+
+      wotdEmbed.addField(
+        "\u200b",
+        `Give me a sentence using the word ${wordObject["word"]}!`
+      );
+      message.channel.send(wotdEmbed);
+    }
+  } else {
+    message.channel.send("Oops! no such word!");
+  }
+}
+
 /**
  * handles the given command and executes the bot behaviour
  * @param {string} command
  */
 function handleCommands(message) {
-  let command = message.content.substring(1); // get command string
+  let command = message.content.split(" ")[0].substring(1); // get command string
+  console.log(command);
 
   // checks if user is a mod or admin
   const is_member_mod = message.member.roles.some(r =>
@@ -78,6 +129,13 @@ function handleCommands(message) {
     console.log("Bot sent wotd!");
     logMessage(message);
     sendWord(message);
+  }
+
+  // user entered command "$getword x", get the word from the dictionary and send it
+  if (command == "word") {
+    const word = message.content.split(" ")[1];
+    console.log(`Bot sent word! ${word}`);
+    sendCustomWord(message, word);
   }
 
   // user entered command "$start", starts automatic sending wotd messages
@@ -118,14 +176,14 @@ function handleCommands(message) {
   }
 
   // thanks user
-  if (command == "good bot") {
+  if (command == "goodbot") {
     console.log("Bot was a good bot!");
     logMessage(message);
     message.channel.send("Thanks");
   }
 
   // woofs user
-  if (command == "good boy") {
+  if (command == "goodboy") {
     console.log("Bot was a good boy!");
     logMessage(message);
     message.channel.send("Woof!");
@@ -141,8 +199,8 @@ function handleCommands(message) {
       "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n";
     help +=
       "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n";
-    help += "$good bot - Shows your appreciation for the bot\n";
-    help += "$good boy - Woof!\n";
+    help += "$goodbot - Shows your appreciation for the bot\n";
+    help += "$goodboy - Woof!\n";
     help += "```";
     message.channel.send(help);
   }

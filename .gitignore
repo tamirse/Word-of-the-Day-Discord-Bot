@@ -5,3 +5,5 @@ content/ee.png
 content/flag.png
 logs/combined.log
 logs/error.log
+playground/filter_words.js
+playground/test.json
