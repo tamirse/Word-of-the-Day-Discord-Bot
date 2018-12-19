@@ -1,0 +1,9 @@
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}

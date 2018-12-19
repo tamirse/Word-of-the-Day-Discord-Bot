@@ -1,9 +1,11 @@
 auth.json
 scraper.js
-content/EV100-logo.png
-content/ee.png
-content/flag.png
-logs/combined.log
-logs/error.log
+
 playground/filter_words.js
 playground/test.json
+
+# directories
+.tmp.drivedownload
+.vscode
+.logs
+.content

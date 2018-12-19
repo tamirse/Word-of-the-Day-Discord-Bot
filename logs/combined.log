@@ -1,0 +1,28 @@
+{"level":"info","message":"$good boy","member":"keegiluppi","channel":"spam","time":"Fri Oct 19 2018 22:01:57 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"word-of-the-day","time":"Fri Oct 19 2018 22:16:01 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Sat Oct 20 2018 11:21:43 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"word-of-the-day","time":"Sat Oct 20 2018 11:21:50 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Sat Oct 20 2018 22:06:41 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"info","message":"$good boy","member":"keegiluppi","channel":"spam","time":"Sat Oct 20 2018 22:06:46 GMT+0300 (Jerusalem Daylight Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Sat Dec 01 2018 13:14:11 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"word-of-the-day","time":"Sat Dec 01 2018 13:16:27 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Sat Dec 01 2018 13:17:59 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"error","message":"read ECONNRESET"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"error","message":"getaddrinfo ENOTFOUND gateway.discord.gg gateway.discord.gg:443"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:05:03 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$start","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:05:41 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$stop","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:05:48 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$good bot","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:05:59 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:07:32 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:07:43 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Mon Dec 03 2018 14:21:22 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$start","member":"keegiluppi","channel":"word-of-the-day","time":"Mon Dec 03 2018 14:22:39 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$stop","member":"keegiluppi","channel":"word-of-the-day","time":"Mon Dec 03 2018 14:22:48 GMT+0200 (Jerusalem Standard Time)"}
+{"level":"info","message":"$wotd","member":"keegiluppi","channel":"spam","time":"Mon Dec 17 2018 13:12:46 GMT+0200 (Jerusalem Standard Time)"}
