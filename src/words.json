@@ -307,6 +307,28 @@
     "Sentence": "Mulle ei meeldi tööd teha.",
     "Translation": "I don't like to work"
   },
+  "2018_12_22": {
+    "Notes": "",
+    "English": "Bicycle",
+    "Nominative": "Jalgratas",
+    "Genitive": "Jalgratta",
+    "Partitive": "Jalgratast",
+    "Short illative": "",
+    "Partitive plural": "Jalgrattaid",
+    "Sentence": "Ma ei oska jalgrattaga sõita.",
+    "Translation": "I don't know how to ride a bicycle."
+  },
+  "2018_12_23": {
+    "Notes": "",
+    "English": "Gift",
+    "Nominative": "Kingitus",
+    "Genitive": "Kingituse",
+    "Partitive": "Kingitust",
+    "Short illative": "Kingitusse",
+    "Partitive plural": "Kingitusi",
+    "Sentence": "See on väga kallis kingitus.",
+    "Translation": "This is a very expensive gift."
+  },
   "2018_12_24": {
     "Notes": "",
     "English": "Santa ",
