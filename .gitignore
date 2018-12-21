@@ -1,6 +1,9 @@
 auth.json
 scraper.js
 
+logs/combined.log
+logs/error.log
+
 playground/filter_words.js
 playground/test.json
 
@@ -9,3 +12,4 @@ playground/test.json
 .vscode
 .logs
 .content
+

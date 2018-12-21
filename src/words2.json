@@ -32,7 +32,8 @@
           "Võtsin auhinna rõõmsa üllatusega vastu."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ülikool": [
@@ -66,7 +67,8 @@
           "Lõpetasin kevadel ülikooli."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ripsmed": [
@@ -89,7 +91,8 @@
         "collocations": [],
         "collocations_sentences": ["Naine värvib ripsmeid."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ristsõna": [
@@ -112,7 +115,8 @@
         "collocations": ["ristsõnu lahendama"],
         "collocations_sentences": ["Talle meeldib ristsõnu lahendada."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "linn": [
@@ -140,7 +144,8 @@
           "Saan Kallega õhtul linnas kokku."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "lind": [
@@ -161,7 +166,8 @@
         "collocations": ["linnud lendavad", "linnud laulavad"],
         "collocations_sentences": ["Tuvi ja luik on linnud."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ülbe": [
@@ -184,7 +190,8 @@
         "collocations": ["ülbe käitumine", "ülbe suhtumine"],
         "collocations_sentences": [],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ülehomme": [
@@ -205,7 +212,8 @@
         "collocations": ["ülehomme hommikul", "ülehomme õhtul"],
         "collocations_sentences": ["Puhkus lõpeb ülehomme."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ööklubi": [
@@ -228,7 +236,8 @@
         "collocations": [],
         "collocations_sentences": ["Hotellis on kaks restorani ja ööklubi."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "vaikne": [
@@ -259,7 +268,8 @@
           "Maal on vaiksem elu kui linnas."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "vaidlus": [
@@ -287,7 +297,8 @@
           "Partnerite vahel käib vaidlus lepingu tingimuste üle."
         ],
         "governments": ["mille üle"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "uus": [
@@ -331,7 +342,8 @@
           "Kes on auto uus omanik?"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tüütu": [
@@ -352,7 +364,8 @@
         "collocations": ["tüütu kohustus", "tüütu töö", "tüütu tegevus"],
         "collocations_sentences": ["Tüütu on iga päev sama juttu kuulata."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tühi": [
@@ -377,7 +390,8 @@
           "Mul on kõht väga tühi."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "aadress": [
@@ -406,7 +420,8 @@
           "Mis aadressil ma sulle meili saadan?"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "aasta": [
@@ -443,7 +458,8 @@
           "."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "lõunasöök": [
@@ -468,7 +484,8 @@
           "Kontserdile järgnes pidulik lõunasöök."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "lumi": [
@@ -497,7 +514,8 @@
           "Ilmateade ennustab lörtsi ja lund."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "kondoom": [
@@ -520,7 +538,8 @@
         "collocations": [],
         "collocations_sentences": ["Ostsin paki kondoome."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "komm": [
@@ -546,7 +565,8 @@
           "Kommil oli värviline paber ümber."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "jõgi": [
@@ -570,7 +590,8 @@
           "Käisime jõe ääres kala püüdmas."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "juust": [
@@ -595,7 +616,8 @@
           "Ostsin pool kilo juustu."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "helkur": [
@@ -618,7 +640,8 @@
         "collocations": [],
         "collocations_sentences": [],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "hambahari": [
@@ -639,7 +662,8 @@
         "collocations": [],
         "collocations_sentences": ["Unustasin hambaharja ja hambapasta koju."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "film": [
@@ -674,7 +698,8 @@
           "Film sai täis."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "erand": [
@@ -699,7 +724,8 @@
           "Eksami peavad sooritama kõik, kellelegi erandit ei tehta."
         ],
         "governments": ["millest", "kellele"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "eelis": [
@@ -727,7 +753,8 @@
           "Hea haridus annab talle teiste kandidaatide ees eelise."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "annetus": [
@@ -753,7 +780,8 @@
           "Annetusi saab teha telefoni teel."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "andekas": [
@@ -780,7 +808,8 @@
         ],
         "collocations_sentences": ["Ta on klassi kõige andekam õpilane."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "palavik": [
@@ -811,7 +840,8 @@
           "Lapsel on juba teist päeva palavik 39 kraadi."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "saar": [
@@ -832,7 +862,8 @@
         "collocations": [],
         "collocations_sentences": ["Saarele pääseb paadiga."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "odav": [
@@ -856,7 +887,8 @@
           "Sain odava hinna eest väga hea telefoni."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "takso": [
@@ -881,7 +913,8 @@
           "Bussid enam ei sõida, nii et peame takso võtma."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "udu": [
@@ -907,7 +940,8 @@
           "Varahommikul kerkis põllu kohale udu."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "varsti": [
@@ -931,7 +965,8 @@
           "Varsti näeme!"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "õhtusöök": [
@@ -956,7 +991,8 @@
           "Saime kutse pidulikule õhtusöögile."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "äge": [
@@ -990,7 +1026,8 @@
           "Poiss viidi ägeda kopsupõletiku tõttu haiglasse."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "üksinda": [
@@ -1014,7 +1051,8 @@
           "Lapsed jäid üksinda koju."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "aed": [
@@ -1042,7 +1080,8 @@
           "Maja ümbritses kõrge aed."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "dokument": [
@@ -1077,7 +1116,8 @@
           "Salvesta dokument enne sulgemist."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ebaviisakas": [
@@ -1101,7 +1141,8 @@
           "Ta oli minu vastu ebaviisakas."
         ],
         "governments": ["kelle vastu"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "edukas": [
@@ -1130,7 +1171,8 @@
           "Ta sooritas eksamid edukalt."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "haigla": [
@@ -1156,7 +1198,8 @@
           "Ta viidi kiirabiga haiglasse."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "haige": [
@@ -1198,7 +1241,8 @@
           "Poiss tegi emale oma käitumisega haiget."
         ],
         "governments": ["kellele"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "hale": [
@@ -1219,7 +1263,8 @@
         "collocations": ["hale lugu", "hale nutt"],
         "collocations_sentences": ["Haiget last oli hale vaadata."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "heategevus": [
@@ -1247,7 +1292,8 @@
         "collocations": [],
         "collocations_sentences": ["Tudengid koguvad heategevuseks raha."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "hilja": [
@@ -1277,7 +1323,8 @@
           "Tee töö valmis enne, kui on hilja."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "hobi": [
@@ -1303,7 +1350,8 @@
           "Ta tegeleb hobi korras muusikaga."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "homme": [
@@ -1320,7 +1368,8 @@
         "collocations": ["homme hommikul", "homme õhtul"],
         "collocations_sentences": ["Homme sõidame maale."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "igav": [
@@ -1341,7 +1390,8 @@
         "collocations": [],
         "collocations_sentences": ["Film oli pikk ja igav.", "Mul on igav."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ilus": [
@@ -1368,7 +1418,8 @@
           "Valetada pole ilus."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "ingel": [
@@ -1391,7 +1442,8 @@
         "collocations": [],
         "collocations_sentences": ["Ta on ilus nagu ingel."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "jalgpall": [
@@ -1415,7 +1467,8 @@
         "collocations": ["jalgpalli mängima"],
         "collocations_sentences": ["Poisid mängivad staadionil jalgpalli."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "joodik": [
@@ -1436,7 +1489,8 @@
         "collocations": [],
         "collocations_sentences": ["Ta on joodik."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "jälle": [
@@ -1458,7 +1512,8 @@
           "Täna on jälle ilus ilm."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "järgmine": [
@@ -1487,7 +1542,8 @@
           "Ajalehes ilmus järgmine kuulutus: Müüa suvila."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "järv": [
@@ -1512,7 +1568,8 @@
           "Maja ehitati järve kaldale."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "kaart": [
@@ -1543,7 +1600,8 @@
           "Mängisime terve õhtu kaarte."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "kala": [
@@ -1575,7 +1633,8 @@
           "Ta ei söö kala."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "kallis": [
@@ -1602,7 +1661,8 @@
           "Tema mälestus on meile kallis."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "laen": [
@@ -1635,7 +1695,8 @@
           "Ta sai pangast laenu."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "lahe": [
@@ -1659,7 +1720,8 @@
           "Sul on nii lahedad saapad!"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "laisk": [
@@ -1683,7 +1745,8 @@
           "Jaan on laisk õpilane."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "lill": [
@@ -1716,7 +1779,8 @@
           "Tüdrukud korjasid aasal lilli."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "maakond": [
@@ -1737,7 +1801,8 @@
         "collocations": [],
         "collocations_sentences": ["Eesti on jagatud 15 maakonnaks."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "mahl": [
@@ -1762,7 +1827,8 @@
           "Ta joob lõunasöögi kõrvale alati klaasi mahla."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "meeldiv": [
@@ -1794,7 +1860,8 @@
           "Väljas oli meeldivalt soe."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "mesilane": [
@@ -1820,7 +1887,8 @@
           "Vanaisa peab mesilasi."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "mets": [
@@ -1841,7 +1909,8 @@
         "collocations": [],
         "collocations_sentences": ["Käisime metsas seeni ja marju korjamas."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "naljakas": [
@@ -1866,7 +1935,8 @@
           "Ta on natuke naljaka välimusega."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "noor": [
@@ -1900,7 +1970,8 @@
           "Eestis on palju andekaid noori."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "nädalavahetus": [
@@ -1924,7 +1995,8 @@
         ],
         "collocations_sentences": ["Käisime nädalavahetusel maal."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "äratuskell": [
@@ -1949,7 +2021,8 @@
           "Panin äratuskella kella kaheksaks helisema."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "äike": [
@@ -1973,7 +2046,8 @@
           "Ilmateade ennustab vihma ja äikest."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "vastupidi": [
@@ -1997,7 +2071,8 @@
           "Kas tüdruk solvus poisi peale või oli see vastupidi?"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "vangla": [
@@ -2021,7 +2096,8 @@
           "Ta vabastati vanglast enne tähtaega."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "usklik": [
@@ -2054,7 +2130,8 @@
           "Kogudusse kuulub sadakond usklikku."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "unenägu": [
@@ -2080,7 +2157,8 @@
           "Ma ei näe unenägusid."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tütar": [
@@ -2101,7 +2179,8 @@
         "collocations": ["vanem tütar", "noorem tütar"],
         "collocations_sentences": ["Neil on kaks last, poeg ja tütar."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "töökoht": [
@@ -2136,7 +2215,8 @@
           "Ettevõttes kaotati mitu töökohta."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tänav": [
@@ -2168,7 +2248,8 @@
           "Laps ületas tänava vales kohas."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tähistama": [
@@ -2207,7 +2288,8 @@
           "See sündmus väärib tähistamist."
         ],
         "governments": ["mida"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "tundlik": [
@@ -2235,7 +2317,8 @@
           "Mu nahk on päikese suhtes/vastu tundlik."
         ],
         "governments": ["mille suhtes", "mille suhtes", "mille vastu"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "torm": [
@@ -2260,7 +2343,8 @@
           "Kalamehed jäid tormi kätte."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "telekas": [
@@ -2281,7 +2365,8 @@
         "collocations": ["telekat vaatama"],
         "collocations_sentences": ["Mis täna telekast tuleb?"],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tekk": [
@@ -2304,7 +2389,8 @@
         "collocations": ["villane tekk", "soe tekk", "paks tekk"],
         "collocations_sentences": ["Võta teine tekk peale, kui külm hakkab."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "teene": [
@@ -2328,7 +2414,8 @@
           "Kas sa saaksid mulle ühe teene teha?"
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "teater": [
@@ -2356,7 +2443,8 @@
           "Näitleja vahetas teatrit."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "tark": [
@@ -2381,7 +2469,8 @@
           "Kuningas valitses riiki targalt."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "šokolaad": [
@@ -2405,7 +2494,8 @@
           "Ostsin suure tahvli šokolaadi."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "sünnipäev": [
@@ -2436,7 +2526,8 @@
           "Lähen homme töökaaslase sünnipäevale."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "sült": [
@@ -2460,7 +2551,8 @@
           "Ta keedab sülti alati sealihast."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "sõber": [
@@ -2484,7 +2576,8 @@
           "Kas oled oma uute klassivendadega juba sõbraks saanud?"
         ],
         "governments": ["kellega"]
-      }
+      },
+      "didPosted": false
     }
   ],
   "soe": [
@@ -2517,7 +2610,8 @@
           "Õues on sooja 18 kraadi."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "seelik": [
@@ -2547,7 +2641,8 @@
         ],
         "collocations_sentences": ["Tüdruk kandis ruudulist seelikut."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "roos": [
@@ -2575,7 +2670,8 @@
         ],
         "collocations_sentences": ["Noormees kinkis neiule ilusa roosi."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "restoran": [
@@ -2601,7 +2697,8 @@
           "Ettekandja tutvustas restorani menüüd."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "päikeseprillid": [
@@ -2624,7 +2721,8 @@
         "collocations": [],
         "collocations_sentences": ["Ostsin suveks uued päikeseprillid."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "põll": [
@@ -2647,7 +2745,8 @@
         "collocations": [],
         "collocations_sentences": ["Kokal on valge põll ees."],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ],
   "puuvili": [
@@ -2672,7 +2771,8 @@
           "Puuviljades ja juurviljades on palju vitamiine."
         ],
         "governments": []
-      }
+      },
+      "didPosted": false
     }
   ]
 }

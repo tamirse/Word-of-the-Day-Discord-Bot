@@ -1,10 +1,11 @@
 const Discord = require("discord.js");
 const auth = require("./auth.json");
-const words = require("./words.json");
+const words = require("./words2.json");
 const dictWords = require("./dictionary_words_um.json");
 const winston = require("winston"); // used for logging
+const fs = require("fs"); // file handling
 
-// to add this bot: https://discordapp.com/oauth2/authorize?&client_id=493445812412481540&scope=bot&permissions=2048
+// to add this bot, read: https://discordapp.com/oauth2/authorize?&client_id=493445812412481540&scope=bot&permissions=2048
 
 // initialize Discord Bot, the command prefix
 const bot = new Discord.Client();
@@ -43,42 +44,54 @@ function capitalizeFirstLetter(string) {
  * sends the message as a discord rich embed format (this is just a fancy looking message)
  * @param {Message} message
  */
-function sendWord(message) {
-  let date = curDate.toLocaleDateString().replace(/-/g, "_"); // get current date
+function sendWord(message, updateWordStatus = false) {
+  let words = JSON.parse(fs.readFileSync("./words2.json", "utf8"));
+  let word = null;
 
-  // if word exists for today, format it (using discord's rich embed) and send in chat
-  if (words[date]) {
-    const wotdEmbed = new Discord.RichEmbed()
-      .setColor("#0099ff")
-      .setTitle("__WORD OF THE DAY__: " + words[date]["Nominative"]);
-
-    // Add the word's english translation + 5 cases
-    for (let key in words[date]) {
-      let inline = key == "Notes" ? false : true;
-      let value = words[date][key] ? words[date][key] : "\u200b";
-      wotdEmbed.addField(key + ":", value, inline);
+  // get word
+  for (const key in words) {
+    if (words[key][0].didPosted === false) {
+      word = words[key][0];
+      delete word.didPosted;
+      words[key][0].didPosted = true; // set as true
+      break;
     }
+  }
 
-    wotdEmbed.addField(
-      "\u200b",
-      `Give me a sentence using the word ${words[date]["Nominative"]}!`
-    );
-
-    message.channel.send(wotdEmbed);
+  // if word exists, format it (using discord's rich embed) and send in chat
+  if (word != null) {
+    sendCustomWord(message, word.word);
+    if (updateWordStatus === true) {
+      // set the word as didPosted in the file
+      saveWords(words);
+    }
   } else {
     message.channel.send("Oops! someone forgot to add more words to the list!");
+    return;
   }
 }
 
+/**
+ * send a word to the channel
+ * @param {Message} message
+ * @param {word object} word
+ */
 function sendCustomWord(message, word) {
-  if (dictWords[word]) {
+  let wordObj = null;
+
+  if (words[word]) {
+    wordObj = words[word];
+  } else if (dictWords[word]) {
+    wordObj = dictWords[word];
+  }
+  if (wordObj != null) {
     const wotdEmbed = new Discord.RichEmbed()
       .setColor("#0099ff")
-      .setTitle("__WORD OF THE DAY__: " + dictWords[word][0]["word"]);
+      .setTitle("__WORD OF THE DAY__: " + wordObj[0]["word"]);
 
     // Add the word's english translation + other data
-    for (let homonym in dictWords[word]) {
-      let wordObject = dictWords[word][homonym];
+    for (let homonym in wordObj) {
+      let wordObject = wordObj[homonym];
 
       for (let key in wordObject) {
         let inline = key == "Notes" ? false : true;
@@ -111,6 +124,11 @@ function sendCustomWord(message, word) {
   }
 }
 
+function saveWords(words) {
+  const FILE_PATH = "./words2.json";
+  fs.writeFileSync(FILE_PATH, JSON.stringify(words), "utf8"); // save new contents to file
+}
+
 /**
  * handles the given command and executes the bot behaviour
  * @param {string} command
@@ -138,7 +156,7 @@ function handleCommands(message) {
     sendCustomWord(message, word);
   }
 
-  // user entered command "$start", starts automatic sending wotd messages
+  // user entered command "$start", starts automatic sending wotd messages and updates word status
   if (command == "start") {
     if (is_member_mod) {
       console.log("Bot started!");
@@ -146,8 +164,8 @@ function handleCommands(message) {
       message.channel.send(
         "Bot started! A new word will be posted every 24h from now."
       );
-      sendWord(message);
-      interval = bot.setInterval(sendWord, MSEC_PER_DAY, message);
+      sendWord(message, true);
+      interval = bot.setInterval(sendWord, MSEC_PER_DAY, message, true);
     } else {
       console.log("Bot did not start, user was not a moderator or admin");
       logMessage(message);
@@ -194,7 +212,8 @@ function handleCommands(message) {
     console.log("Bot helped!");
     let help = "Commands for the word of the day bot:\n";
     help += "```";
-    help += "$wotd  - Send the word of the day\n";
+    help +=
+      "$word x  - Searches word x in the dictionary and posts it if available\n";
     help +=
       "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n";
     help +=
