@@ -33,7 +33,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ülikool": [
@@ -68,7 +68,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ripsmed": [
@@ -92,7 +92,7 @@
         "collocations_sentences": ["Naine värvib ripsmeid."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ristsõna": [
@@ -116,7 +116,7 @@
         "collocations_sentences": ["Talle meeldib ristsõnu lahendada."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "linn": [
@@ -145,7 +145,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "lind": [
@@ -167,7 +167,7 @@
         "collocations_sentences": ["Tuvi ja luik on linnud."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ülbe": [
@@ -191,7 +191,7 @@
         "collocations_sentences": [],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ülehomme": [
@@ -213,7 +213,7 @@
         "collocations_sentences": ["Puhkus lõpeb ülehomme."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ööklubi": [
@@ -237,7 +237,7 @@
         "collocations_sentences": ["Hotellis on kaks restorani ja ööklubi."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "vaikne": [
@@ -269,7 +269,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "vaidlus": [
@@ -298,7 +298,7 @@
         ],
         "governments": ["mille üle"]
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "uus": [
@@ -343,7 +343,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "tüütu": [
@@ -365,7 +365,7 @@
         "collocations_sentences": ["Tüütu on iga päev sama juttu kuulata."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "tühi": [
@@ -391,7 +391,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "aadress": [
@@ -421,7 +421,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "aasta": [
@@ -459,7 +459,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "lõunasöök": [
@@ -485,7 +485,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "lumi": [
@@ -515,7 +515,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "kondoom": [
@@ -539,7 +539,7 @@
         "collocations_sentences": ["Ostsin paki kondoome."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "komm": [
@@ -566,7 +566,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "jõgi": [
@@ -591,7 +591,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "juust": [
@@ -617,7 +617,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "helkur": [
@@ -641,7 +641,7 @@
         "collocations_sentences": [],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "hambahari": [
@@ -663,7 +663,7 @@
         "collocations_sentences": ["Unustasin hambaharja ja hambapasta koju."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "film": [
@@ -699,7 +699,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "erand": [
@@ -725,7 +725,7 @@
         ],
         "governments": ["millest", "kellele"]
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "eelis": [
@@ -754,7 +754,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "annetus": [
@@ -781,7 +781,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "andekas": [
@@ -809,7 +809,7 @@
         "collocations_sentences": ["Ta on klassi kõige andekam õpilane."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "palavik": [
@@ -841,7 +841,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "saar": [
@@ -863,7 +863,7 @@
         "collocations_sentences": ["Saarele pääseb paadiga."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "odav": [
@@ -888,7 +888,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "takso": [
@@ -914,7 +914,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "udu": [
@@ -941,7 +941,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "varsti": [
@@ -966,7 +966,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "õhtusöök": [
@@ -992,7 +992,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "äge": [
@@ -1027,7 +1027,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "üksinda": [
@@ -1052,7 +1052,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "aed": [
@@ -1081,7 +1081,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "dokument": [
@@ -1117,7 +1117,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ebaviisakas": [
@@ -1142,7 +1142,7 @@
         ],
         "governments": ["kelle vastu"]
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "edukas": [
@@ -1172,7 +1172,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "haigla": [
@@ -1199,7 +1199,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "haige": [
@@ -1242,7 +1242,7 @@
         ],
         "governments": ["kellele"]
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "hale": [
@@ -1264,7 +1264,7 @@
         "collocations_sentences": ["Haiget last oli hale vaadata."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "heategevus": [
@@ -1293,7 +1293,7 @@
         "collocations_sentences": ["Tudengid koguvad heategevuseks raha."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "hilja": [
@@ -1324,7 +1324,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "hobi": [
@@ -1351,7 +1351,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "homme": [
@@ -1369,7 +1369,7 @@
         "collocations_sentences": ["Homme sõidame maale."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "igav": [
@@ -1391,7 +1391,7 @@
         "collocations_sentences": ["Film oli pikk ja igav.", "Mul on igav."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ilus": [
@@ -1419,7 +1419,7 @@
         ],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "ingel": [
@@ -1443,7 +1443,7 @@
         "collocations_sentences": ["Ta on ilus nagu ingel."],
         "governments": []
       },
-      "didPosted": false
+      "didPosted": true
     }
   ],
   "jalgpall": [
