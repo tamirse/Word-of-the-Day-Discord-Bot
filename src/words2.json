@@ -12,8 +12,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "ootamatu ja üllatav sündmus, tegu, kingitus või muu",
           "tunne, mis sul on, kui juhtub midagi ootamatut"
         ],
@@ -44,15 +44,15 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["üli+k`ool'", "üli+kooli", "üli+k`ooli", "üli+k`ooli"],
-        "plural": ["üli+koolid", "üli+k`oolide", "üli+k`ool'e"],
+        "singular": ["üli+kool'", "üli+kooli", "üli+kooli", "üli+kooli"],
+        "plural": ["üli+koolid", "üli+koolide", "üli+kool'e"],
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "kõrgharidust andev asutus, kuhu saab õppima minna pärast gümnaasiumi lõpetamist"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "ülikooli rektor",
           "ülikooli professor",
@@ -80,14 +80,14 @@
       "part_of_speech": "nimisõna",
       "declensions": {
         "singular": [],
-        "plural": ["r`ipsmed", "r`ipsmete", "r`ipsmeid"],
+        "plural": ["ripsmed", "ripsmete", "ripsmeid"],
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "väikesed karvad, mis kasvavad silma ülemises ja alumises ääres"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Naine värvib ripsmeid."],
         "governments": []
@@ -103,15 +103,15 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["r`is't+sõna", "r`is't+sõna", "r`is't+sõna"],
-        "plural": ["r`is't+sõnad", "r`is't+sõnade", "r`is't+sõnu"],
+        "singular": ["ris't+sõna", "ris't+sõna", "ris't+sõna"],
+        "plural": ["ris't+sõnad", "ris't+sõnade", "ris't+sõnu"],
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "ülesanne, milles tuleb tähed paigutada ruutudesse nii, et teatud ridadesse tuleksid sõnad, mida otsitakse"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["ristsõnu lahendama"],
         "collocations_sentences": ["Talle meeldib ristsõnu lahendada."],
         "governments": []
@@ -127,13 +127,13 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["l`inn", "linna", "l`inna", "l`inna"],
-        "plural": ["linnad", "l`innade", "l`innu"],
+        "singular": ["linn", "linna", "linna", "linna"],
+        "plural": ["linnad", "linnade", "linnu"],
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "koht, kus on palju elamuid, poode ja teisi hooneid",
           "kesklinn"
         ],
@@ -156,13 +156,13 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["l`ind", "linnu", "l`indu"],
-        "plural": ["linnud", "l`indude", "l`inde"],
+        "singular": ["lind", "linnu", "lindu"],
+        "plural": ["linnud", "lindude", "linde"],
         "comparisons": []
       },
       "examples": {
-        "sentences": ["loom, kellel on tiivad, suled ja nokk"],
-        "explanations": [],
+        "explanations": ["loom, kellel on tiivad, suled ja nokk"],
+        "sentences": [],
         "collocations": ["linnud lendavad", "linnud laulavad"],
         "collocations_sentences": ["Tuvi ja luik on linnud."],
         "governments": []
@@ -178,15 +178,15 @@
       "is_plural": false,
       "part_of_speech": "omadussõna",
       "declensions": {
-        "singular": ["`ülbe", "`ülbe", "`ülbet"],
-        "plural": ["`ülbed", "`ülbete", "`ülbeid"],
-        "comparisons": ["`ülbem"]
+        "singular": ["ülbe", "ülbe", "ülbet"],
+        "plural": ["ülbed", "ülbete", "ülbeid"],
+        "comparisons": ["ülbem"]
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "selline, kes arvab, et ta on parem ja tähtsam kui teised inimesed"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["ülbe käitumine", "ülbe suhtumine"],
         "collocations_sentences": [],
         "governments": []
@@ -202,13 +202,13 @@
       "is_plural": false,
       "part_of_speech": "määrsõna",
       "declensions": {
-        "singular": ["üle+h`omme"],
+        "singular": ["üle+homme"],
         "plural": [],
         "comparisons": []
       },
       "examples": {
-        "sentences": ["homsele päevale järgneval päeval"],
-        "explanations": [],
+        "explanations": ["homsele päevale järgneval päeval"],
+        "sentences": [],
         "collocations": ["ülehomme hommikul", "ülehomme õhtul"],
         "collocations_sentences": ["Puhkus lõpeb ülehomme."],
         "governments": []
@@ -224,15 +224,15 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["`öö+klubi", "`öö+klubi", "`öö+klubi"],
-        "plural": ["`öö+klubid", "`öö+klubide", "`öö+klubisid"],
+        "singular": ["öö+klubi", "öö+klubi", "öö+klubi"],
+        "plural": ["öö+klubid", "öö+klubide", "öö+klubisid"],
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "koht, kuhu saab minna hilja õhtul, et tantsida ja jooke osta"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Hotellis on kaks restorani ja ööklubi."],
         "governments": []
@@ -248,13 +248,13 @@
       "is_plural": false,
       "part_of_speech": "omadussõna",
       "declensions": {
-        "singular": ["v`aikne", "v`aikse", "v`aikset"],
-        "plural": ["v`aiksed", "v`aiksete", "v`aikseid"],
-        "comparisons": ["v`aiksem"]
+        "singular": ["vaikne", "vaikse", "vaikset"],
+        "plural": ["vaiksed", "vaiksete", "vaikseid"],
+        "comparisons": ["vaiksem"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "selline, mida on vähe kuulda, tasane",
           "selline, et helisid pole või neid on väga vähe",
           "rahulik, vähese jutuga või tegevusega"
@@ -280,13 +280,13 @@
       "is_plural": false,
       "part_of_speech": "nimisõna",
       "declensions": {
-        "singular": ["v`aidlus", "v`aidluse", "v`aidlust", "v`aidlusse"],
-        "plural": ["v`aidlused", "v`aidluste", "v`aidlusi", "v`aidluseid"],
+        "singular": ["vaidlus", "vaidluse", "vaidlust", "vaidlusse"],
+        "plural": ["vaidlused", "vaidluste", "vaidlusi", "vaidluseid"],
         "comparisons": []
       },
       "examples": {
-        "sentences": ["vestlus, kus osalejad pole üksteisega nõus"],
-        "explanations": [],
+        "explanations": ["vestlus, kus osalejad pole üksteisega nõus"],
+        "sentences": [],
         "collocations": [
           "pikk vaidlus",
           "äge vaidlus",
@@ -309,13 +309,13 @@
       "is_plural": false,
       "part_of_speech": "omadussõna",
       "declensions": {
-        "singular": ["`uus", "uue", "`uut", "`uude"],
-        "plural": ["uued", "uute", "`uusi"],
+        "singular": ["uus", "uue", "uut", "uude"],
+        "plural": ["uued", "uute", "uusi"],
         "comparisons": ["uuem"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "hiljuti loodud, valminud või omandatud",
           "selline, mida sul varem ei olnud",
           "inimese kohta: alles lühikest aega praeguses rollis olnud",
@@ -354,13 +354,13 @@
       "is_plural": false,
       "part_of_speech": "omadussõna",
       "declensions": {
-        "singular": ["t`üütu", "t`üütu", "t`üütut"],
-        "plural": ["t`üütud", "t`üütute", "t`üütuid"],
-        "comparisons": ["t`üütum"]
+        "singular": ["tüütu", "tüütu", "tüütut"],
+        "plural": ["tüütud", "tüütute", "tüütuid"],
+        "comparisons": ["tüütum"]
       },
       "examples": {
-        "sentences": ["häiriv, ärritav"],
-        "explanations": [],
+        "explanations": ["häiriv, ärritav"],
+        "sentences": [],
         "collocations": ["tüütu kohustus", "tüütu töö", "tüütu tegevus"],
         "collocations_sentences": ["Tüütu on iga päev sama juttu kuulata."],
         "governments": []
@@ -376,13 +376,13 @@
       "is_plural": false,
       "part_of_speech": "omadussõna",
       "declensions": {
-        "singular": ["tühi", "tühja", "t`ühja"],
-        "plural": ["tühjad", "t`ühjade", "t`ühje"],
+        "singular": ["tühi", "tühja", "tühja"],
+        "plural": ["tühjad", "tühjade", "tühje"],
         "comparisons": []
       },
       "examples": {
-        "sentences": ["selline, kus pole (enam) midagi või kedagi sees"],
-        "explanations": [],
+        "explanations": ["selline, kus pole (enam) midagi või kedagi sees"],
+        "sentences": [],
         "collocations": ["kõht on tühi"],
         "collocations_sentences": [
           "Ta jõi pudeli tühjaks.",
@@ -407,8 +407,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "kellegi kodu või mingi asutuse andmed, näiteks maja number ning tänava ja linna nimi",
           "inimese või asutuse elektroonilised andmed, mille abil saab neid internetis üles leida ja nendega ühendust võtta",
           "meiliaadress"
@@ -437,8 +437,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "365 või 366 päeva pikkune periood, mis algab 1. jaanuaril ja lõpeb 31. detsembril",
           "ükskõik milline 12 kuud kestev periood, ka vanuse kohta"
         ],
@@ -475,8 +475,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["toit, mida süüakse päeva keskel", "selle toidu söömine"],
-        "explanations": [],
+        "explanations": ["toit, mida süüakse päeva keskel", "selle toidu söömine"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Mis meil täna lõunasöögiks on?",
@@ -501,11 +501,11 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "külmunud vee pehmed valged tükid, mis langevad taevast külma ilmaga",
           "nendest tekkinud kate maapinnal"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Öösel sadas lund.",
@@ -531,10 +531,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "õhukesest kummist vahend, mis kaitseb seksi ajal haiguste eest ega lase naisel rasedaks jääda"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Ostsin paki kondoome."],
         "governments": []
@@ -555,10 +555,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "väike tükk magusat toitu, mis on tehtud näiteks suhkrust ja šokolaadist"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta ostis lastele paki komme.",
@@ -582,8 +582,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["pikk ja lai veekogu, mis voolab tavaliselt merre"],
-        "explanations": [],
+        "explanations": ["pikk ja lai veekogu, mis voolab tavaliselt merre"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Amazonas on üks maailma pikimaid jõgesid.",
@@ -607,8 +607,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["kollane või valge toiduaine, mis on tehtud piimast"],
-        "explanations": [],
+        "explanations": ["kollane või valge toiduaine, mis on tehtud piimast"],
+        "sentences": [],
         "collocations": ["riivitud juust"],
         "collocations_sentences": [
           "Õhtusöögiks on makaronid juustuga.",
@@ -633,10 +633,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "ese, mis peegeldab valgust ja mida inimesed kannavad pimedal ajal riiete küljes, et autojuhid neid näeks"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [],
         "governments": []
@@ -657,8 +657,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["väike hari hammaste puhastamiseks"],
-        "explanations": [],
+        "explanations": ["väike hari hammaste puhastamiseks"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Unustasin hambaharja ja hambapasta koju."],
         "governments": []
@@ -679,8 +679,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "liikuvate piltide ja heliga lugu, mida saab vaadata kinos või kodus",
           "pikk ja õhuke ese, millele saab kaameraga videot või pilte salvestada"
         ],
@@ -715,8 +715,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["nähtus, asjaolu või muu, mis erineb millestki üldisest"],
-        "explanations": [],
+        "explanations": ["nähtus, asjaolu või muu, mis erineb millestki üldisest"],
+        "sentences": [],
         "collocations": ["erandit tegema"],
         "collocations_sentences": [
           "Naissoost mehaanik on pigem erand kui reegel.",
@@ -741,8 +741,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "millegi tugev külg, mille poolest see on parem kui teised",
           "õigus saada või teha midagi esimesena",
           "võimalus, mida teistel pole"
@@ -770,10 +770,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "rahasumma või ese, mille sa annad kellegi või millegi heaks, aitamiseks"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["vabatahtlikud annetused", "annetusi tegema"],
         "collocations_sentences": [
           "Koguti annetusi uue haigla ehitamiseks.",
@@ -797,10 +797,10 @@
         "comparisons": ["andekam"]
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "selline, kellel on loomulik võime midagi väga hästi teha"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "andekas näitleja",
           "andekas muusik",
@@ -825,10 +825,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "kui sul on palavik, siis su keha on liiga kuum, kuna oled haige"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "kõrge palavik",
           "väike palavik",
@@ -857,8 +857,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["maa-ala, mis on igast küljest veega ümbritsetud"],
-        "explanations": [],
+        "explanations": ["maa-ala, mis on igast küljest veega ümbritsetud"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Saarele pääseb paadiga."],
         "governments": []
@@ -879,8 +879,8 @@
         "comparisons": ["odavam"]
       },
       "examples": {
-        "sentences": ["selline, mis maksab vähe"],
-        "explanations": [],
+        "explanations": ["selline, mis maksab vähe"],
+        "sentences": [],
         "collocations": ["odav hind", "odav pilet", "odav üür"],
         "collocations_sentences": [
           "Selles poes on väga odavad kaubad.",
@@ -904,10 +904,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "auto, millega inimene saab sõita, kui ta juhile raha maksab"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["taksot tellima", "taksot võtma"],
         "collocations_sentences": [
           "Bussid enam ei sõida, nii et peame takso võtma."
@@ -930,10 +930,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "maapinna kohale tekkiv õhuke pilv, millest on raske läbi näha"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Eksisime tiheda udu tõttu teelt.",
@@ -957,8 +957,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["lühikese aja pärast, peagi"],
-        "explanations": [],
+        "explanations": ["lühikese aja pärast, peagi"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Küll sa varsti terveks saad.",
@@ -982,8 +982,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["toit, mida süüakse õhtul", "selle toidu söömine"],
-        "explanations": [],
+        "explanations": ["toit, mida süüakse õhtul", "selle toidu söömine"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Pärast õhtusööki läksime magama.",
@@ -1008,8 +1008,8 @@
         "comparisons": ["ägedam"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "tugevate tunnetega (eriti vihaga) suhtuv",
           "tugevaid tundeid väljendav",
           "kui haigus või valu on äge, siis see on tugev või muutub kiiresti ohtlikuks"
@@ -1043,8 +1043,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["ilma teiste inimesteta või teistest eraldi"],
-        "explanations": [],
+        "explanations": ["ilma teiste inimesteta või teistest eraldi"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Mari läks üksinda kinno.",
@@ -1068,8 +1068,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "maa-ala maja juures, kus saab kasvatada lilli, köögivilju ja puuvilju",
           "enamasti puust või metallist ehitis, mis on selle maa-ala ümber"
         ],
@@ -1097,8 +1097,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "ametlik paber, mille peal on oluline info",
           "arvutis: fail, mis sisaldab teksti"
         ],
@@ -1133,8 +1133,8 @@
         "comparisons": ["eba+viisakam"]
       },
       "examples": {
-        "sentences": ["halbade kommetega, hea käitumise tavasid mitte järgiv"],
-        "explanations": [],
+        "explanations": ["halbade kommetega, hea käitumise tavasid mitte järgiv"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Peolt nii vara lahkuda oleks ebaviisakas.",
@@ -1158,8 +1158,8 @@
         "comparisons": ["edukam", "edukalt", "edukamalt"]
       },
       "examples": {
-        "sentences": ["heade tulemustega, häid tulemusi saavutav"],
-        "explanations": [],
+        "explanations": ["heade tulemustega, häid tulemusi saavutav"],
+        "sentences": [],
         "collocations": [
           "edukas õpilane",
           "edukas sportlane",
@@ -1188,10 +1188,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "asutus, kus arstid ja õed ravivad inimesi, kes on haiged või vigastatud"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Mu vend on kopsupõletikuga haiglas.",
@@ -1221,8 +1221,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "selline, kelle tervis pole korras, kellel on mingi haigus",
           "inimene, kellel on mingi haigus",
           "väljendites:"
@@ -1258,8 +1258,8 @@
         "comparisons": ["haledam"]
       },
       "examples": {
-        "sentences": ["kurb", "kaastunnet tekitav"],
-        "explanations": [],
+        "explanations": ["kurb", "kaastunnet tekitav"],
+        "sentences": [],
         "collocations": ["hale lugu", "hale nutt"],
         "collocations_sentences": ["Haiget last oli hale vaadata."],
         "governments": []
@@ -1285,10 +1285,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "annetuste tegemine või vabatahtlik tegevus teiste inimeste aitamiseks"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Tudengid koguvad heategevuseks raha."],
         "governments": []
@@ -1309,8 +1309,8 @@
         "comparisons": ["hiljem"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "hilisel ajal, päeva lõpus",
           "pärast tavalist või õiget aega"
         ],
@@ -1340,10 +1340,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "tegevus, millega sulle väljaspool tööd meeldib tegeleda"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Minu hobid on lugemine ja ujumine.",
@@ -1363,8 +1363,8 @@
       "part_of_speech": "määrsõna",
       "declensions": { "singular": ["homme"], "plural": [], "comparisons": [] },
       "examples": {
-        "sentences": ["tänasele päevale järgneval päeval"],
-        "explanations": [],
+        "explanations": ["tänasele päevale järgneval päeval"],
+        "sentences": [],
         "collocations": ["homme hommikul", "homme õhtul"],
         "collocations_sentences": ["Homme sõidame maale."],
         "governments": []
@@ -1385,8 +1385,8 @@
         "comparisons": ["igavam"]
       },
       "examples": {
-        "sentences": ["selline, et ei ole huvitav ega põnev"],
-        "explanations": [],
+        "explanations": ["selline, et ei ole huvitav ega põnev"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Film oli pikk ja igav.", "Mul on igav."],
         "governments": []
@@ -1407,8 +1407,8 @@
         "comparisons": ["ilusam"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": ["väga kena", "hea, viisakas"],
+        "explanations": [],
+        "sentences": ["väga kena", "hea, viisakas"],
         "collocations": [],
         "collocations_sentences": [
           "Ta on kõige ilusam naine, keda ma näinud olen.",
@@ -1435,10 +1435,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "olend, kes toob jumalalt sõnumeid. Piltide peal on inglitel tavaliselt valged riided ja tiivad"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Ta on ilus nagu ingel."],
         "governments": []
@@ -1459,8 +1459,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "sportlik mäng, kus üks võistkond püüab palli jalaga teise võistkonna väravasse lüüa",
           "selles mängus kasutatav pall"
         ],
@@ -1484,8 +1484,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["inimene, kes joob liiga palju alkoholi"],
-        "explanations": [],
+        "explanations": ["inimene, kes joob liiga palju alkoholi"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Ta on joodik."],
         "governments": []
@@ -1502,10 +1502,10 @@
       "part_of_speech": "määrsõna",
       "declensions": { "singular": ["jälle"], "plural": [], "comparisons": [] },
       "examples": {
-        "sentences": [
+        "explanations": [
           "näitab, et samasugune tegevus või olukord on juba varem toimunud või olnud"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Homme peab jälle tööle minema.",
@@ -1529,8 +1529,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": ["millelegi järgnev", "selline"],
+        "explanations": [],
+        "sentences": ["millelegi järgnev", "selline"],
         "collocations": [
           "järgmisel päeval",
           "järgmisel nädalal",
@@ -1559,8 +1559,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["suur veekogu, mis pole otseses ühenduses merega"],
-        "explanations": [],
+        "explanations": ["suur veekogu, mis pole otseses ühenduses merega"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Käisime järves ujumas.",
@@ -1585,8 +1585,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "maailma, riigi või linna vähendatud pilt, mille pealt saab vaadata mitmesuguseid objekte, näiteks teid, mägesid või jõgesid",
           "postkaart",
           "õhuke plastist ese, millega saab näiteks poes maksta või kuskilt väravast läbi minna",
@@ -1617,8 +1617,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": ["loom, kes elab ja hingab vees", "kala toiduna"],
+        "explanations": [],
+        "sentences": ["loom, kes elab ja hingab vees", "kala toiduna"],
         "collocations": [
           "kala püüdma",
           "kalale minema",
@@ -1650,8 +1650,8 @@
         "comparisons": ["kallim"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": ["selline, mis maksab palju", "armas"],
+        "explanations": [],
+        "sentences": ["selline, mis maksab palju", "armas"],
         "collocations": ["kallis hind"],
         "collocations_sentences": [
           "Ta sõidab kalli autoga.",
@@ -1678,10 +1678,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "raha, mille keegi sulle ajutiselt annab ja mille peab teatud ajaks tagasi maksma"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "laenu taotlema",
           "laenu andma",
@@ -1712,8 +1712,8 @@
         "comparisons": ["lahedam"]
       },
       "examples": {
-        "sentences": ["tore", "moodne"],
-        "explanations": [],
+        "explanations": ["tore", "moodne"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta on väga lahe poiss.",
@@ -1737,8 +1737,8 @@
         "comparisons": ["laisem"]
       },
       "examples": {
-        "sentences": ["selline, kes ei taha töötada ega pingutada"],
-        "explanations": [],
+        "explanations": ["selline, kes ei taha töötada ega pingutada"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta on nii laisk, et ei viitsi isegi süüa teha.",
@@ -1762,8 +1762,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["taim, millel on ilusad õied või lehed"],
-        "explanations": [],
+        "explanations": ["taim, millel on ilusad õied või lehed"],
+        "sentences": [],
         "collocations": [
           "lilli kinkima",
           "lilli kastma",
@@ -1796,8 +1796,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["riigi suurem piirkond, millel on oma kohalikud juhid"],
-        "explanations": [],
+        "explanations": ["riigi suurem piirkond, millel on oma kohalikud juhid"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Eesti on jagatud 15 maakonnaks."],
         "governments": []
@@ -1818,10 +1818,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "vedelik, mida saab enamasti puuviljadest, marjadest või köögiviljadest"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta joob lõunasöögi kõrvale alati klaasi mahla."
@@ -1844,8 +1844,8 @@
         "comparisons": ["meeldivam", "meeldivalt"]
       },
       "examples": {
-        "sentences": ["selline, mis meeldib, tekitab hea tunde"],
-        "explanations": [],
+        "explanations": ["selline, mis meeldib, tekitab hea tunde"],
+        "sentences": [],
         "collocations": [
           "meeldiv lõhn",
           "meeldiv tunne",
@@ -1877,10 +1877,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "tiibadega putukas, kelle kehal on mustad ja kollased triibud ja kes valmistab mett"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["mesilasi pidama"],
         "collocations_sentences": [
           "Mesilased lendavad õielt õiele.",
@@ -1904,8 +1904,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["suur maa-ala, kus kasvab palju puid"],
-        "explanations": [],
+        "explanations": ["suur maa-ala, kus kasvab palju puid"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Käisime metsas seeni ja marju korjamas."],
         "governments": []
@@ -1926,8 +1926,8 @@
         "comparisons": ["naljakam"]
       },
       "examples": {
-        "sentences": ["selline, mis on lõbus, paneb naerma", "veider"],
-        "explanations": [],
+        "explanations": ["selline, mis on lõbus, paneb naerma", "veider"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Kuulsin täna ühte naljakat lugu.",
@@ -1952,8 +1952,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "alles lühikest aega elanud või olemas olnud",
           "noor inimene"
         ],
@@ -1987,8 +1987,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["laupäev ja pühapäev"],
-        "explanations": [],
+        "explanations": ["laupäev ja pühapäev"],
+        "sentences": [],
         "collocations": [
           "eelmisel nädalavahetusel",
           "järgmisel nädalavahetusel"
@@ -2012,10 +2012,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "kell, mida saab helisema panna ajaks, mil sa ärgata tahad"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Panin äratuskella kella kaheksaks helisema."
@@ -2038,8 +2038,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["nähtus taevas, kui müristab ja lööb välku"],
-        "explanations": [],
+        "explanations": ["nähtus taevas, kui müristab ja lööb välku"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Äike lähenes.",
@@ -2063,8 +2063,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["täiesti, hoopis teisiti"],
-        "explanations": [],
+        "explanations": ["täiesti, hoopis teisiti"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Sa siis ei taha kaasa tulla? – Vastupidi, väga tahan!",
@@ -2088,8 +2088,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["koht, kus kurjategijad peavad karistuseks viibima"],
-        "explanations": [],
+        "explanations": ["koht, kus kurjategijad peavad karistuseks viibima"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Varas saadeti kolmeks aastaks vanglasse.",
@@ -2119,8 +2119,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "selline, kes usub jumalasse",
           "inimene, kes usub jumalasse"
         ],
@@ -2147,10 +2147,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "pildid ja mõtted, mis tekkivad une ajal ja tunduvad tõelised"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["unenägusid nägema"],
         "collocations_sentences": [
           "Nägin täna öösel halba unenägu.",
@@ -2174,8 +2174,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["tüdruk või naine kellegi lapsena"],
-        "explanations": [],
+        "explanations": ["tüdruk või naine kellegi lapsena"],
+        "sentences": [],
         "collocations": ["vanem tütar", "noorem tütar"],
         "collocations_sentences": ["Neil on kaks last, poeg ja tütar."],
         "governments": []
@@ -2196,8 +2196,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "asutus või ettevõte, kus sa töötad",
           "kindlate ülesannetega töö, mille eest saab palka",
           "ametikoht"
@@ -2232,8 +2232,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["linnas või külas asuv tee, mille ääres on majad"],
-        "explanations": [],
+        "explanations": ["linnas või külas asuv tee, mille ääres on majad"],
+        "sentences": [],
         "collocations": [
           "lai tänav",
           "kitsas tänav",
@@ -2273,8 +2273,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "millegi puhul pidulikku üritust korraldama",
           "mingit märki kuhugi panema",
           "millegi märgiks olema, millelegi viitama"
@@ -2305,8 +2305,8 @@
         "comparisons": ["tundlikum"]
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "kergesti solvuv, õrna hingega",
           "selline, mida tuleb käsitleda väga ettevaatlikult",
           "selline, mis reageerib tugevasti välistele mõjudele"
@@ -2334,8 +2334,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["väga tugev tuul"],
-        "explanations": [],
+        "explanations": ["väga tugev tuul"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Merel tõusis tugev torm.",
@@ -2360,8 +2360,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["(suulises kõnes) televiisor"],
-        "explanations": [],
+        "explanations": ["(suulises kõnes) televiisor"],
+        "sentences": [],
         "collocations": ["telekat vaatama"],
         "collocations_sentences": ["Mis täna telekast tuleb?"],
         "governments": []
@@ -2382,10 +2382,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "paksemast materjalist kate, mille sa magamise ajaks endale peale paned"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["villane tekk", "soe tekk", "paks tekk"],
         "collocations_sentences": ["Võta teine tekk peale, kui külm hakkab."],
         "governments": []
@@ -2406,8 +2406,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["tänu, tunnustust vääriv tegu"],
-        "explanations": [],
+        "explanations": ["tänu, tunnustust vääriv tegu"],
+        "sentences": [],
         "collocations": ["teenet tegema"],
         "collocations_sentences": [
           "Ta sai riigile osutatud teenete eest Eesti kodakondsuse.",
@@ -2431,11 +2431,11 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "koht, kuhu inimesed lähevad, et etendusi vaadata",
           "vastav asutus"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta armastab teatris käia.",
@@ -2460,8 +2460,8 @@
         "comparisons": ["targem", "targalt", "targemalt"]
       },
       "examples": {
-        "sentences": ["arukas, mõistlik", "terava mõistusega"],
-        "explanations": [],
+        "explanations": ["arukas, mõistlik", "terava mõistusega"],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta on klassi kõige targem õpilane.",
@@ -2486,8 +2486,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["pruuni värvi magus toit, mis sisaldab kakaod"],
-        "explanations": [],
+        "explanations": ["pruuni värvi magus toit, mis sisaldab kakaod"],
+        "sentences": [],
         "collocations": ["tahvel šokolaadi", "tume šokolaad", "valge šokolaad"],
         "collocations_sentences": [
           "Sõin tüki šokolaadi.",
@@ -2511,8 +2511,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "päev, millal keegi on sündinud (või miski on rajatud) ja sama kuupäev igal järgneval aastal",
           "pidu, millega sünnipäeva tähistatakse"
         ],
@@ -2543,8 +2543,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["külm toit, mille sees on väikesed lihast tükid"],
-        "explanations": [],
+        "explanations": ["külm toit, mille sees on väikesed lihast tükid"],
+        "sentences": [],
         "collocations": ["sülti keetma"],
         "collocations_sentences": [
           "Jõulude ajal süüakse Eestis sülti ja kartuleid.",
@@ -2568,8 +2568,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": ["inimene, kes sulle meeldib ja keda sa hästi tunned"],
-        "explanations": [],
+        "explanations": ["inimene, kes sulle meeldib ja keda sa hästi tunned"],
+        "sentences": [],
         "collocations": ["sõbraks saama"],
         "collocations_sentences": [
           "Argo on mu parim sõber.",
@@ -2599,8 +2599,8 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [],
-        "explanations": [
+        "explanations": [],
+        "sentences": [
           "mõõdukalt kõrge temperatuuriga",
           "mõõdukalt kõrge temperatuur"
         ],
@@ -2627,10 +2627,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "naiste riideese, mis katab keha alumise osa ja osaliselt ka jalad"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "pikk seelik",
           "lai seelik",
@@ -2658,10 +2658,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "magusa lõhnaga lill, mis kasvab teravate okastega põõsa küljes"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [
           "punased roosid",
           "roosad roosid",
@@ -2687,10 +2687,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "suurem koht, kus inimesed saavad sööke ja jooke osta ning istuda"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": [
           "Ta tähistas oma sünnipäeva ühes kallis restoranis.",
@@ -2714,10 +2714,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "tumedate klaasidega prillid, mis kaitsevad silmi päikese eest"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Ostsin suveks uued päikeseprillid."],
         "governments": []
@@ -2738,10 +2738,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "riideese, mida kantakse teiste riiete peal, et neid puhtana hoida, tavaliselt süüa tehes"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": [],
         "collocations_sentences": ["Kokal on valge põll ees."],
         "governments": []
@@ -2762,10 +2762,10 @@
         "comparisons": []
       },
       "examples": {
-        "sentences": [
+        "explanations": [
           "vili, mis kasvab puu küljes ja mida inimesed söövad, näiteks õun, pirn ja ploom"
         ],
-        "explanations": [],
+        "sentences": [],
         "collocations": ["värske puuvili", "magus puuvili"],
         "collocations_sentences": [
           "Puuviljades ja juurviljades on palju vitamiine."
