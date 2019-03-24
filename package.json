@@ -5,9 +5,11 @@
     "main": "bot.js",
     "author": "Tamir",
     "dependencies": {
+        "chai": "^4.2.0",
         "cheerio": "^1.0.0-rc.2",
         "discord.js": "^11.4.2",
         "event-stream": "3.3.4",
+        "mocha": "^6.0.2",
         "nodemon": "^1.18.4",
         "npm": "^6.4.1",
         "request": "^2.88.0",
