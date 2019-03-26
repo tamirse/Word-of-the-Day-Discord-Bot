@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const auth = require("./auth.json");
-const words = require("./words2.json");
-const dictionaryWords = require("./dictionary_words_um.json");
+const wordsTranslated = require("./words2.json"); // contains translated words
+const dictionaryWords = require("./dictionary_words_um.json"); // contains all words
 const logger = require("./logging.js");
 const fs = require("fs"); // file handling
 const wordMethods = require("./word_methods.js");
@@ -58,8 +58,8 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
 function sendCustomWord(message, word, isWotd=false) {
   let wordObj = null;
 
-  if (words[word]) {
-    wordObj = words[word];
+  if (wordsTranslated[word]) {
+    wordObj = wordsTranslated[word];
   } else if (dictionaryWords[word]) {
     wordObj = dictionaryWords[word];
   }
@@ -151,7 +151,7 @@ function checkIfAdmin(message){
 }
 
 /**
- * 
+ * returns the command string from the message
  * @param {Message} message discord message object
  */
 function getCommandFromMessage(message){
@@ -159,7 +159,7 @@ function getCommandFromMessage(message){
 }
 
 /**
- * Handle the "wotd" command
+ * Handles the "wotd" command
  * sends the current word-of-the-day
  * @param {Message} message discord message object
  */
@@ -183,20 +183,26 @@ function handleCommandWord(message){
 /**
  * Handles the "start" command
  * starts automatic sending wotd messages and updates word status in the file
+ * sends a new word every 24 hours (as specified in MSEC_PER_DAY constant)
+ * only an admin or moderator can use this command.
  * @param {Message} message discord message object
  */
 function handleCommandStart(message){
   if (checkIfAdmin(message)) {
     console.log("Bot started!");
     logger.logMessage(message);
+
     message.channel.send(
       "Bot started! A new word will be posted every 24h from now."
     );
+
     sendWordOfTheDay(message, true);
+
     interval = bot.setInterval(sendWordOfTheDay, MSEC_PER_DAY, message, true);
   } else {
     console.log("Bot did not start, user was not a moderator or admin");
     logger.logMessage(message);
+
     message.channel.send(
       "Bot did not start, user must be a moderator or admin to use this command."
     );
@@ -206,19 +212,23 @@ function handleCommandStart(message){
 /**
  * Handles the "stop" command
  * stops automatic sending wotd messages
+ * only an admin or moderator can use this command.
  * @param {Message} message 
  */
 function handleCommandStop(message){
   if (checkIfAdmin(message)) {
     console.log("Bot stopped!");
     logger.logMessage(message);
+
     message.channel.send(
       "Bot stopped! New words will not be posted automatically."
     );
+
     bot.clearInterval(interval);
   } else {
     console.log("Bot did not stop, user was not a moderator or admin");
     logger.logMessage(message);
+    
     message.channel.send(
       "Bot did not stop, user must be a moderator or admin to use this command."
     );
