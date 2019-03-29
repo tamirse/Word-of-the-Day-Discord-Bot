@@ -1,12 +1,9 @@
-const Discord = require("discord.js");
 const auth = require("./auth.json");
 const logger = require("./logging.js");
 const botMethods = require("./bot_methods.js");
 
 // to add this bot, read: https://discordapp.com/oauth2/authorize?&client_id=493445812412481540&scope=bot&permissions=2048
-
-// initialize Discord Bot and set the command prefix
-const bot = new Discord.Client();
+const bot = botMethods.bot;
 const COMMAND_PREFIX = "$"; // the command prefix. ignore all user messages that don't start with the prefix
 
 // indicate the bot has logged in successfully by writing to the console

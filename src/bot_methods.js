@@ -5,6 +5,8 @@ const logger = require("./logging.js");
 const fs = require("fs"); // file handling
 const wordMethods = require("./word_methods.js");
 
+// initialize Discord Bot and the interval time
+const bot = new Discord.Client();
 const MSEC_PER_DAY = 86400000;
 let interval; // interval object for the bot. we declare it here so it would be in the global scope
 
@@ -291,6 +293,7 @@ function handleCommands(message) {
 }
 
 module.exports = {
+  bot: bot,
   sendWordOfTheDay: sendWordOfTheDay,
   sendCustomWord: sendCustomWord,
   checkIfAdmin: checkIfAdmin,

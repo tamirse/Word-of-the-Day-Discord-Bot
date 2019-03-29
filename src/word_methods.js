@@ -1,3 +1,4 @@
+const fs = require("fs"); // file handling
 
 /**
  * capitalizes the first letter of the string
