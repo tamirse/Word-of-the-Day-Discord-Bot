@@ -1,19 +1,22 @@
 {
-    "name": "word-of-the-day-bot",
-    "version": "1.0.0",
-    "description": "Estonian word of the day bot",
-    "main": "bot.js",
-    "author": "Tamir",
-    "dependencies": {
-        "chai": "^4.2.0",
-        "cheerio": "^1.0.0-rc.2",
-        "discord.js": "^11.4.2",
-        "event-stream": "3.3.4",
-        "mocha": "^6.0.2",
-        "nodemon": "^1.18.4",
-        "npm": "^6.4.1",
-        "request": "^2.88.0",
-        "request-promise": "^4.2.2",
-        "winston": "^3.1.0"
-    }
+  "name": "word-of-the-day-bot",
+  "version": "1.0.0",
+  "description": "Estonian word of the day bot",
+  "main": "bot.js",
+  "author": "Tamir",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "event-stream": "3.3.4",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.4",
+    "npm": "^6.4.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "winston": "^3.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }

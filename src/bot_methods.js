@@ -1,11 +1,12 @@
+const WORDS_FILE_PATH = "./data/words2.json"; // translated words filepath
+const wordsTranslated = require(WORDS_FILE_PATH); // contains translated words
+const dictionaryWords = require("./data/dictionary_words_um.json"); // contains all words
 const Discord = require("discord.js");
-const wordsTranslated = require("./words2.json"); // contains translated words
-const dictionaryWords = require("./dictionary_words_um.json"); // contains all words
 const logger = require("./logging.js");
-const fs = require("fs"); // file handling
 const wordMethods = require("./word_methods.js");
 
 // initialize Discord Bot and the interval time
+
 const bot = new Discord.Client();
 const MSEC_PER_DAY = 86400000;
 let interval; // interval object for the bot. we declare it here so it would be in the global scope
@@ -17,7 +18,7 @@ let interval; // interval object for the bot. we declare it here so it would be 
  * @param {Message} message discord message object
  */
 function sendWordOfTheDay(message, updateWordStatus = false) {
-  let words = JSON.parse(fs.readFileSync("./words2.json", "utf8"));
+  let words = wordsTranslated;
   let word = null;
 
   // get word
@@ -35,7 +36,7 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
     sendCustomWord(message, word.word, (isWotd = true));
     if (updateWordStatus === true) {
       // set the word as didPosted in the file
-      wordMethods.saveWords(words);
+      wordMethods.saveToJSONFile(words, WORDS_FILE_PATH);
     }
   } else {
     message.channel.send("Oops! someone forgot to add more words to the list!");

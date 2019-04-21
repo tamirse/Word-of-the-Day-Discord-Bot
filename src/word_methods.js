@@ -8,17 +8,16 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-
-  /**
- * saves the words json into a file
- * @param {words} words json of words
+/**
+ * saves the object to json file
+ * @param {object} json json of words
+ * @param {string} filepath words json file path
  */
-function saveWords(words) {
-    const FILE_PATH = "./words2.json";
-    fs.writeFileSync(FILE_PATH, JSON.stringify(words), "utf8"); // save new contents to file
+function saveToJSONFile(json, filepath) {
+    fs.writeFileSync(filepath, JSON.stringify(json), "utf8"); // save new contents to file
 }
 
 module.exports = {
     capitalizeFirstLetter : capitalizeFirstLetter,
-    saveWords : saveWords
+    saveToJSONFile : saveToJSONFile
 }
