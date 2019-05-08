@@ -1,7 +1,7 @@
 const wordMethods = require("./word_methods.js");
 
 /**
- * the A \ B set operation for json files.
+ * the A \ B set operation for json files. (aka filter)
  * return the complement of subSetJSON in universalSetJSON 
  * (items in universalSetJSON that are not in subSetJSON)
  * 
@@ -36,8 +36,41 @@ function getAndSaveComplement(universalSetJSON, subSetJSON, filePath){
     wordMethods.saveToJSONFile(complementSetJSON, filePath)
 }
 
+/**
+ * copy the english word translation from one json file to the other
+ * returns the JSON the words were copied into (toJSON)
+ * @param {object} toJSON 
+ * @param {object} fromJSON 
+ */
+function copyWordsTranslation(toJSON, fromJSON){
+  
+    for (const key in fromJSON) {
+        let englishTranslation = fromJSON[key][0].english
+        
+        if (englishTranslation !== "") {
+        toJSON[key][0].english = englishTranslation
+        }
+    }
+
+    return toJSON;
+}
+
+/**
+ * copy the english word translation from one json file to the other, then save at filepath
+ * @param {object} toJSON 
+ * @param {*} fromJSON 
+ * @param {object} filePath 
+ */
+function copyAndSaveWordsTranslation(toJSON, fromJSON, filePath){
+    let jsonAfterTranslation = copyWordsTranslation(toJSON, fromJSON);
+    wordMethods.saveToJSONFile(jsonAfterTranslation, filePath)
+}
+
 // test:
 // const allWords = require("./data/dictionary_words_um.json");
 // const someWords = require("./data/words2.json");
 
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
+
+// const translatedWords = require("./data/translatedWordsRound3.json")
+// copyWordsTranslation(allWords, translatedWords)

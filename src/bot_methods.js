@@ -23,6 +23,7 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
 
   // get word
   for (const key in words) {
+    // get the first word which its' .didPosted property is false
     if (words[key][0].didPosted === false) {
       word = words[key][0];
       delete word.didPosted;
@@ -165,7 +166,7 @@ function getCommandFromMessage(message) {
 function handleCommandWotd(message) {
   console.log("Bot sent wotd!");
   logger.logMessage(message);
-  sendWordOfTheDay(message);
+  sendWordOfTheDay(message, false);
 }
 
 /**
@@ -241,17 +242,16 @@ function handleCommandStop(message) {
  */
 function handleCommandHelp(message) {
   console.log("Bot helped!");
-  let help = "Commands for the word of the day bot:\n";
-  help += "```";
-  help +=
-    "$word x  - Searches word x in the dictionary and posts it if available\n";
-  help +=
-    "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n";
-  help +=
-    "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n";
-  help += "$goodbot - Shows your appreciation for the bot\n";
-  help += "$goodboy - Woof!\n";
-  help += "```";
+  
+  let help = "Commands for the word of the day bot:\n" +
+             "```" +
+             "$word x  - Searches word x in the dictionary and posts it if available\n" +
+             "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n" +
+             "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n" +
+             "$goodbot - Shows your appreciation for the bot\n" +
+             "$goodboy - Woof!\n" +
+             "```";
+
   message.channel.send(help);
 }
 
