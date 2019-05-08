@@ -4,6 +4,7 @@ const dictionaryWords = require("./data/dictionary_words_um.json"); // contains 
 const Discord = require("discord.js");
 const logger = require("./logging.js");
 const wordMethods = require("./word_methods.js");
+const jsonMethods = require("./json_methods.js");
 
 // initialize Discord Bot and the interval time
 
@@ -37,7 +38,7 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
     sendCustomWord(message, word.word, (isWotd = true));
     if (updateWordStatus === true) {
       // set the word as didPosted in the file
-      wordMethods.saveToJSONFile(words, WORDS_FILE_PATH);
+      jsonMethods.saveToJSONFile(words, WORDS_FILE_PATH);
     }
   } else {
     message.channel.send("Oops! someone forgot to add more words to the list!");
@@ -242,7 +243,7 @@ function handleCommandStop(message) {
  */
 function handleCommandHelp(message) {
   console.log("Bot helped!");
-  
+
   let help = "Commands for the word of the day bot:\n" +
              "```" +
              "$word x  - Searches word x in the dictionary and posts it if available\n" +

@@ -1,4 +1,11 @@
-const wordMethods = require("./word_methods.js");
+/**
+ * saves the object to json file
+ * @param {object} json json of words
+ * @param {string} filepath words json file path
+ */
+function saveToJSONFile(json, filepath) {
+    fs.writeFileSync(filepath, JSON.stringify(json), "utf8"); // save new contents to file
+}
 
 /**
  * the A \ B set operation for json files. (aka filter)
@@ -33,7 +40,7 @@ function getComplement(universalSetJSON, subSetJSON){
  */
 function getAndSaveComplement(universalSetJSON, subSetJSON, filePath){
     let complementSetJSON = getComplement(universalSetJSON, subSetJSON);
-    wordMethods.saveToJSONFile(complementSetJSON, filePath)
+    saveToJSONFile(complementSetJSON, filePath)
 }
 
 /**
@@ -63,7 +70,11 @@ function copyWordsTranslation(toJSON, fromJSON){
  */
 function copyAndSaveWordsTranslation(toJSON, fromJSON, filePath){
     let jsonAfterTranslation = copyWordsTranslation(toJSON, fromJSON);
-    wordMethods.saveToJSONFile(jsonAfterTranslation, filePath)
+    saveToJSONFile(jsonAfterTranslation, filePath)
+}
+
+module.exports = {
+    saveToJSONFile : saveToJSONFile
 }
 
 // test:
