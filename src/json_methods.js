@@ -50,12 +50,11 @@ function getAndSaveComplement(universalSetJSON, subSetJSON, filePath){
  * @param {object} fromJSON 
  */
 function copyWordsTranslation(toJSON, fromJSON){
-  
     for (const key in fromJSON) {
         let englishTranslation = fromJSON[key][0].english
         
         if (englishTranslation !== "") {
-        toJSON[key][0].english = englishTranslation
+            toJSON[key][0].english = englishTranslation
         }
     }
 
@@ -65,8 +64,8 @@ function copyWordsTranslation(toJSON, fromJSON){
 /**
  * copy the english word translation from one json file to the other, then save at filepath
  * @param {object} toJSON 
- * @param {*} fromJSON 
- * @param {object} filePath 
+ * @param {object} fromJSON 
+ * @param {string} filePath 
  */
 function copyAndSaveWordsTranslation(toJSON, fromJSON, filePath){
     let jsonAfterTranslation = copyWordsTranslation(toJSON, fromJSON);
@@ -78,10 +77,9 @@ module.exports = {
 }
 
 // test:
-// const allWords = require("./data/dictionary_words_um.json");
+const allWords = require("./data/dictionary_words_um.json");
 // const someWords = require("./data/words2.json");
 
+const translatedWords = require("./data/translatedWordsRound3.json")
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
-
-// const translatedWords = require("./data/translatedWordsRound3.json")
 // copyWordsTranslation(allWords, translatedWords)
