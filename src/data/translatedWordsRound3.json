@@ -8414,7 +8414,7 @@
 	"risk": [
 	{
 		"word": "risk",
-		"english": "",
+		"english": "risk (lol)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -8501,7 +8501,7 @@
 	"rusikas": [
 	{
 		"word": "rusikas",
-		"english": "",
+		"english": "fist",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -8543,7 +8543,7 @@
 	"rätsep": [
 	{
 		"word": "rätsep",
-		"english": "",
+		"english": "tailor",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -8584,7 +8584,7 @@
 	"rünnak": [
 	{
 		"word": "rünnak",
-		"english": "",
+		"english": "attack",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -8626,7 +8626,7 @@
 	"saatma": [
 	{
 		"word": "saatma",
-		"english": "",
+		"english": "to send, to see off, to accompany (as in, 'ma saadan su ära', I'll see you off)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -8725,7 +8725,7 @@
 	"sattuma": [
 	{
 		"word": "sattuma",
-		"english": "",
+		"english": "to come upon, to get into an unexpected situation",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -8748,7 +8748,7 @@
 		},
 		"examples": {
 			"explanations": [
-
+				"as in, 'Me sattusime kuidagi Lasnamäele', We arrived to Lasnamäe somehow"
 			],
 			"sentences": [
 				"juhuslikult mingisse kohta või mingile üritusele jõudma",
@@ -8779,7 +8779,7 @@
 	"sedavõrd": [
 	{
 		"word": "sedavõrd",
-		"english": "",
+		"english": "to that degree, such, so",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "määrsõna",
@@ -8861,7 +8861,7 @@
 	"sekka": [
 	{
 		"word": "sekka",
-		"english": "",
+		"english": "into a company, coming together with sb, into the middle of",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "kaassõna",
@@ -8878,7 +8878,8 @@
 		},
 		"examples": {
 			"explanations": [
-				"mingisse gruppi, kellegi keskele"
+				"mingisse gruppi, kellegi keskele",
+				"as in, 'Suur juht astus rahvahulga sekka - the great leader stepped into the crowd"
 			],
 			"sentences": [
 
@@ -8898,7 +8899,7 @@
 	"selguma": [
 	{
 		"word": "selguma",
-		"english": "",
+		"english": "to become clear, to turn out to be, to become understandable",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -8917,7 +8918,8 @@
 		},
 		"examples": {
 			"explanations": [
-				"selgeks saama, ilmnema"
+				"selgeks saama, ilmnema",
+				"as in, 'Küll homme selgub, kes viina pihta pani' - It will become clear tomorrow, who stole the vodka"
 			],
 			"sentences": [
 
@@ -8939,7 +8941,7 @@
 	"sepp": [
 	{
 		"word": "sepp",
-		"english": "",
+		"english": "smith",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -8980,7 +8982,7 @@
 	"siiras": [
 	{
 		"word": "siiras",
-		"english": "",
+		"english": "sincere",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -9025,7 +9027,7 @@
 	"sulama": [
 	{
 		"word": "sulama",
-		"english": "",
+		"english": "to melt",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9066,7 +9068,7 @@
 	"suuresti": [
 	{
 		"word": "suuresti",
-		"english": "",
+		"english": "largely, greatly, highly",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "määrsõna",
@@ -9104,7 +9106,7 @@
 	"suvine": [
 	{
 		"word": "suvine",
-		"english": "",
+		"english": "summerly, summer",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -9149,7 +9151,7 @@
 	"sõlm": [
 	{
 		"word": "sõlm",
-		"english": "",
+		"english": "tie, knot",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9192,7 +9194,7 @@
 	"tagant": [
 	{
 		"word": "tagant",
-		"english": "",
+		"english": "from the back, from behind",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "kaassõna",
@@ -9242,7 +9244,7 @@
 	"tagatis": [
 	{
 		"word": "tagatis",
-		"english": "",
+		"english": "guarantee, warranty",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9283,7 +9285,7 @@
 	"tahe": [
 	{
 		"word": "tahe",
-		"english": "",
+		"english": "will, want, desire",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9367,7 +9369,7 @@
 	"tegutsema": [
 	{
 		"word": "tegutsema",
-		"english": "",
+		"english": "to act, to do, to do work (frequently)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9390,7 +9392,7 @@
 		},
 		"examples": {
 			"explanations": [
-
+				"(as in, 'mulle meeldib aias tegutseda' - I like to do work in the garden)"
 			],
 			"sentences": [
 				"midagi (aktiivselt) tegema",
@@ -9414,7 +9416,7 @@
 	"teke": [
 	{
 		"word": "teke",
-		"english": "",
+		"english": "creation, origin, birth (not used for living things)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9454,7 +9456,7 @@
 	"telk": [
 	{
 		"word": "telk",
-		"english": "",
+		"english": "tent",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9498,7 +9500,7 @@
 	"tigu": [
 	{
 		"word": "tigu",
-		"english": "",
+		"english": "snail",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9539,7 +9541,7 @@
 	"toetuma": [
 	{
 		"word": "toetuma",
-		"english": "",
+		"english": "to lean on something, to stand up next to something, to rely on, to rely",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9558,7 +9560,7 @@
 		},
 		"examples": {
 			"explanations": [
-
+				"as in, 'ma toetusin vasta seina' - I leaned against the wall"
 			],
 			"sentences": [
 				"end millegi vastu või millegi peale toetama",
@@ -9586,7 +9588,7 @@
 	"torkama": [
 	{
 		"word": "torkama",
-		"english": "",
+		"english": "to poke, to prick, to stab, to jab",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9627,7 +9629,7 @@
 	"tüli": [
 	{
 		"word": "tüli",
-		"english": "",
+		"english": "quarrel, strife, conflict",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9681,7 +9683,7 @@
 	"uriin": [
 	{
 		"word": "uriin",
-		"english": "",
+		"english": "urine (kinda a polite term, in colloquial/informal situations, 'kusi' is prefered, which is also used in a lot of medical terms, like 'kusepõis' - bladder)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9720,7 +9722,7 @@
 	"uss": [
 	{
 		"word": "uss",
-		"english": "",
+		"english": "worm, snake",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9764,7 +9766,7 @@
 	"vaas": [
 	{
 		"word": "vaas",
-		"english": "",
+		"english": "vase",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9806,7 +9808,7 @@
 	"vabanema": [
 	{
 		"word": "vabanema",
-		"english": "",
+		"english": "to become free, to become free of, to get rid of",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9851,7 +9853,7 @@
 	"vaesus": [
 	{
 		"word": "vaesus",
-		"english": "",
+		"english": "poverty, poorness, being poor",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -9890,7 +9892,7 @@
 	"vahelt": [
 	{
 		"word": "vahelt",
-		"english": "",
+		"english": "from inbetween, out of",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "kaassõna",
@@ -9910,7 +9912,8 @@
 				"kahe inimese või asja vaheliselt kohalt või vahelisest kohast"
 			],
 			"sentences": [
-
+				"used in phrases like 'to take one's cut', as in 'ma võtsin viis euri vahelt' - I took 5 euros as a cut",
+				"from inbetween, out of, as in 'ma vaatasin kardinate vahelt välja' - I looked out from inbetween the curtains"
 			],
 			"collocations": [
 
@@ -9929,7 +9932,7 @@
 	"vahetu": [
 	{
 		"word": "vahetu",
-		"english": "",
+		"english": "direct, immediate, sincere, honest",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -9974,7 +9977,7 @@
 	"vaikima": [
 	{
 		"word": "vaikima",
-		"english": "",
+		"english": "to become silent, to be silent, to calm down, to stop",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -9994,7 +9997,8 @@
 		"examples": {
 			"explanations": [
 				"vait olema või jääma",
-				"mitte rääkima"
+				"mitte rääkima",
+				"as in 'torm vaikis' - the storm calmed down"
 			],
 			"sentences": [
 
@@ -10015,7 +10019,7 @@
 	"vajadus": [
 	{
 		"word": "vajadus",
-		"english": "",
+		"english": "need (as in Maslow's hierarchy)",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10107,7 +10111,7 @@
 	"varas": [
 	{
 		"word": "varas",
-		"english": "",
+		"english": "thief",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10148,7 +10152,7 @@
 	"varjama": [
 	{
 		"word": "varjama",
-		"english": "",
+		"english": "to hide, to cover, to cover up",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -10197,7 +10201,7 @@
 	"vihik": [
 	{
 		"word": "vihik",
-		"english": "",
+		"english": "textbook",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10238,7 +10242,7 @@
 	"värvus": [
 	{
 		"word": "värvus",
-		"english": "",
+		"english": "colour",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10281,7 +10285,7 @@
 	"õhk": [
 	{
 		"word": "õhk",
-		"english": "",
+		"english": "air",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10385,7 +10389,7 @@
 	"õpe": [
 	{
 		"word": "õpe",
-		"english": "",
+		"english": "study",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10470,7 +10474,7 @@
 	"õrn": [
 	{
 		"word": "õrn",
-		"english": "",
+		"english": "gentle, tender",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -10515,7 +10519,7 @@
 	"õu": [
 	{
 		"word": "õu",
-		"english": "",
+		"english": "outside, yard (of a house), the land between a house and any other building",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10535,7 +10539,8 @@
 		},
 		"examples": {
 			"explanations": [
-				"ala väljaspool hoonet, mis on piiratud näiteks teiste hoonete, müüri või aiaga"
+				"ala väljaspool hoonet, mis on piiratud näiteks teiste hoonete, müüri või aiaga",
+				"(used mostly in the locative cases, 'ma lähen õue' - I'm going outside)"
 			],
 			"sentences": [
 
@@ -10555,7 +10560,7 @@
 	"ämber": [
 	{
 		"word": "ämber",
-		"english": "",
+		"english": "bucket, pail",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10594,10 +10599,10 @@
 		}
 	}
 	],
-	"ärapõlema": [
+	"ära põlema": [
 	{
-		"word": "ärapõlema",
-		"english": "",
+		"word": "ära põlema",
+		"english": "to burn up",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -10636,7 +10641,7 @@
 	"ärevus": [
 	{
 		"word": "ärevus",
-		"english": "",
+		"english": "anxiety",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "nimisõna",
@@ -10679,7 +10684,7 @@
 	"äärde": [
 	{
 		"word": "äärde",
-		"english": "",
+		"english": "up to something, to the side",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "kaassõna",
@@ -10719,7 +10724,7 @@
 	"öine": [
 	{
 		"word": "öine",
-		"english": "",
+		"english": "nightly, lunar",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -10762,7 +10767,7 @@
 	"ööbima": [
 	{
 		"word": "ööbima",
-		"english": "",
+		"english": "to stay the night, to sleep",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -10841,7 +10846,7 @@
 	"ühine": [
 	{
 		"word": "ühine",
-		"english": "",
+		"english": "common, the same",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "omadussõna",
@@ -10891,7 +10896,7 @@
 	"üksnes": [
 	{
 		"word": "üksnes",
-		"english": "",
+		"english": "only, solely",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "määrsõna",
@@ -10929,7 +10934,7 @@
 	"üleelama": [
 	{
 		"word": "üleelama",
-		"english": "",
+		"english": "to live through, to survive",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
@@ -11014,7 +11019,7 @@
 	"ületama": [
 	{
 		"word": "ületama",
-		"english": "",
+		"english": "to surpass",
 		"homonym": "",
 		"is_plural": false,
 		"part_of_speech": "tegusõna",
