@@ -1,7 +1,7 @@
 const fs = require("fs"); // file handling
 
 /**
- * saves the object to json file
+ * Saves the object to json file
  * @param {object} json json of words
  * @param {string} filepath words json file path
  */
@@ -10,7 +10,7 @@ function saveToJSONFile(json, filepath) {
 }
 
 /**
- * the A \ B set operation for json files. (aka filter)
+ * The A \ B set operation for json files. (aka filter)
  * return the complement of subSetJSON in universalSetJSON 
  * (items in universalSetJSON that are not in subSetJSON)
  * 
@@ -35,7 +35,7 @@ function getComplement(universalSetJSON, subSetJSON){
 }
 
 /**
- * calculates the complement of A \ B and saves the result at filePath
+ * Calculates the complement of A \ B and saves the result at filePath
  * @param {object} universalSetJSON // universal set (A)
  * @param {object} subSetJSON // subset (B)
  * @param {string} filePath // file path to save the result
@@ -46,7 +46,23 @@ function getAndSaveComplement(universalSetJSON, subSetJSON, filePath){
 }
 
 /**
- * copy the english word translation from one json file to the other
+ * Delete words without english translation and save to file
+ * @param {object} json 
+ * @param {string} filePath 
+ */
+function saveOnlyTranslatedWords(json, filePath){
+    for (const key in json) {
+        let englishTranslation = json[key][0].english
+        
+        if (englishTranslation === "") {
+            delete json[key]
+        }
+    }
+    saveToJSONFile(json, filePath)
+}
+
+/**
+ * Copy the english word translation from one json file to the other
  * returns the JSON the words were copied into (toJSON)
  * @param {object} toJSON 
  * @param {object} fromJSON 
@@ -64,7 +80,7 @@ function copyWordsTranslation(toJSON, fromJSON){
 }
 
 /**
- * copy the english word translation from one json file to the other, then save at filepath
+ * Copy the english word translation from one json file to the other, then save at filepath
  * @param {object} toJSON 
  * @param {object} fromJSON 
  * @param {string} filePath 
@@ -97,9 +113,11 @@ module.exports = {
 const allWords = require("./data/dictionary_words_um.json");
 // const someWords = require("./data/words2.json");
 
-const translatedWords = require("./data/translatedWordsRound3.json")
+const TRANSLATED_WORDS_PATH = "./data/wordsRound3_someTranslated.json"
+const translatedWords = require(TRANSLATED_WORDS_PATH)
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
 // copyWordsTranslation(allWords, translatedWords)
 // copyAndSaveWordsTranslation(allWords, translatedWords, "./data/dictionary_words_um_translated.json")
 
-addDidPostedFieldAndSave(translatedWords, "./data/translatedWordsRound3.json")
+// addDidPostedFieldAndSave(translatedWords, "./data/translatedWordsRound3.json")
+// saveOnlyTranslatedWords(translatedWords, "./data/wordsRound3_onlyTranslated.json")
