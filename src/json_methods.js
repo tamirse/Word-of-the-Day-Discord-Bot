@@ -74,6 +74,21 @@ function copyAndSaveWordsTranslation(toJSON, fromJSON, filePath){
     saveToJSONFile(jsonAfterTranslation, filePath)
 }
 
+/**
+ * Adds the "didPosted field" to every word, with the default value of 'false'
+ * and then saves to file
+ * @param {object} json 
+ * @param {string} filePath 
+ */
+function addDidPostedFieldAndSave(json, filePath){
+    for (const key in json) {
+        for (const i in json[key]) {
+            json[key][i]["didPosted"] = false
+        }
+    }
+    saveToJSONFile(json, filePath)
+}
+
 module.exports = {
     saveToJSONFile : saveToJSONFile
 }
@@ -85,4 +100,6 @@ const allWords = require("./data/dictionary_words_um.json");
 const translatedWords = require("./data/translatedWordsRound3.json")
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
 // copyWordsTranslation(allWords, translatedWords)
-copyAndSaveWordsTranslation(allWords, translatedWords, "./data/dictionary_words_um_translated.json")
+// copyAndSaveWordsTranslation(allWords, translatedWords, "./data/dictionary_words_um_translated.json")
+
+addDidPostedFieldAndSave(translatedWords, "./data/translatedWordsRound3.json")
