@@ -1,3 +1,5 @@
+const fs = require("fs"); // file handling
+
 /**
  * saves the object to json file
  * @param {object} json json of words
@@ -83,3 +85,4 @@ const allWords = require("./data/dictionary_words_um.json");
 const translatedWords = require("./data/translatedWordsRound3.json")
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
 // copyWordsTranslation(allWords, translatedWords)
+copyAndSaveWordsTranslation(allWords, translatedWords, "./data/dictionary_words_um_translated.json")
