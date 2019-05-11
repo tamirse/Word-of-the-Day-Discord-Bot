@@ -279,12 +279,10 @@ function handleCommands(message) {
       break;
     case "goodbot": // thanks user
       console.log("Bot was a good bot!");
-      logger.logMessage(message);
       message.channel.send("Thanks");
       break;
     case "goodboy": // woofs user
       console.log("Bot was a good boy!");
-      logger.logMessage(message);
       message.channel.send("Woof!");
       break;
     case "help": // help command
