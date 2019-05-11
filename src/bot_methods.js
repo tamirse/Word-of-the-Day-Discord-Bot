@@ -28,14 +28,16 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
     if (words[key][0].didPosted === false) {
       word = words[key][0];
       delete word.didPosted;
-      words[key][0].didPosted = true; // set as true
+      if (updateWordStatus === true) {
+        words[key][0].didPosted = true; // set as true
+      }
       break;
     }
   }
 
   // if word exists, format it (using discord's rich embed) and send in chat
   if (word != null) {
-    sendCustomWord(message, word.word, (isWotd = true));
+    sendCustomWord(message, word.word, isWotd = true);
     if (updateWordStatus === true) {
       // set the word as didPosted in the file
       jsonMethods.saveToJSONFile(words, WORDS_FILE_PATH);
@@ -167,7 +169,7 @@ function getCommandFromMessage(message) {
 function handleCommandWotd(message) {
   console.log("Bot sent wotd!");
   logger.logMessage(message);
-  sendWordOfTheDay(message, false);
+  sendWordOfTheDay(message);
 }
 
 /**
@@ -266,7 +268,7 @@ function handleCommands(message) {
 
   switch (command) {
     case "wotd": // user entered command "$wotd", send the word of the day in chat
-      handleCommandWotd(message);
+      //handleCommandWotd(message);
       break;
     case "word": // user entered command "$word x", get the word from the dictionary and send it
       handleCommandWord(message);
