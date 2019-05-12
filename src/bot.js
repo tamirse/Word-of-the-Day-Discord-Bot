@@ -18,7 +18,7 @@ bot.on("ready", () => {
 
 // logs bot errors to the error log file
 bot.on("error", error => {
-  logger.logMessage("error", error.message);
+  //logger.logMessage("error", error.message);
 });
 
 // Bot listens to chat messages event, taking action on command

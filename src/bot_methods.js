@@ -168,7 +168,7 @@ function getCommandFromMessage(message) {
  */
 function handleCommandWotd(message) {
   console.log("Bot sent wotd!");
-  logger.logMessage(message);
+  //logger.logMessage(message);
   sendWordOfTheDay(message);
 }
 
@@ -193,7 +193,7 @@ function handleCommandWord(message) {
 function handleCommandStart(message) {
   if (checkIfAdmin(message)) {
     console.log("Bot started!");
-    logger.logMessage(message);
+    //logger.logMessage(message);
 
     message.channel.send(
       "Bot started! A new word will be posted every 24h from now."
@@ -204,7 +204,7 @@ function handleCommandStart(message) {
     interval = bot.setInterval(sendWordOfTheDay, MSEC_PER_DAY, message, true);
   } else {
     console.log("Bot did not start, user was not a moderator or admin");
-    logger.logMessage(message);
+    //logger.logMessage(message);
 
     message.channel.send(
       "Bot did not start, user must be a moderator or admin to use this command."
@@ -221,7 +221,7 @@ function handleCommandStart(message) {
 function handleCommandStop(message) {
   if (checkIfAdmin(message)) {
     console.log("Bot stopped!");
-    logger.logMessage(message);
+    //logger.logMessage(message);
 
     message.channel.send(
       "Bot stopped! New words will not be posted automatically."
@@ -230,7 +230,7 @@ function handleCommandStop(message) {
     bot.clearInterval(interval);
   } else {
     console.log("Bot did not stop, user was not a moderator or admin");
-    logger.logMessage(message);
+    //logger.logMessage(message);
 
     message.channel.send(
       "Bot did not stop, user must be a moderator or admin to use this command."
