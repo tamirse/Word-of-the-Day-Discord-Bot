@@ -111,7 +111,7 @@ function sendCustomWord(message, word, isWotd = false) {
             if (wotdEmbed.fields.length < MAX_NUM_OF_RICH_EMBER_FIELDS){
               wotdEmbed.addField(
                 wordMethods.capitalizeFirstLetter(wordField) + ":",
-                wordMethods.cutString(subfieldValue),
+                subfieldValue,
                 inline
               );
             }
