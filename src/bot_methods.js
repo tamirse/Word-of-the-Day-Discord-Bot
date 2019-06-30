@@ -10,6 +10,7 @@ const jsonMethods = require("./json_methods.js");
 
 const bot = new Discord.Client();
 const MSEC_PER_DAY = 86400000;
+const MAX_NUM_OF_RICH_EMBER_FIELDS = 25;
 let interval; // interval object for the bot. we declare it here so it would be in the global scope
 
 /**
@@ -93,25 +94,27 @@ function sendCustomWord(message, word, isWotd = false) {
         // value has sub-objects
         if (typeof value == "object") {
           for (wordField in value) {
-            let subfieldVal =
+            let subfieldValue =
               value[wordField].length > 0 ? value[wordField].slice() : "\u200b";
             console.log("key: ", wordField);
-            console.log("value: ", subfieldVal);
+            console.log("value: ", subfieldValue);
 
             switch (wordField) {
               case "singular":
               case "plural":
-                subfieldVal[0] = "(Nom): " + subfieldVal[0];
-                subfieldVal[1] = "(Gen):   " + subfieldVal[1];
-                subfieldVal[2] = "(Par):   " + subfieldVal[2];
+                subfieldValue[0] = "(Nom): " + subfieldValue[0];
+                subfieldValue[1] = "(Gen):   " + subfieldValue[1];
+                subfieldValue[2] = "(Par):   " + subfieldValue[2];
                 break;
             }
-
-            wotdEmbed.addField(
-              wordMethods.capitalizeFirstLetter(wordField) + ":",
-              subfieldVal,
-              inline
-            );
+            
+            if (wotdEmbed.fields.length < MAX_NUM_OF_RICH_EMBER_FIELDS){
+              wotdEmbed.addField(
+                wordMethods.capitalizeFirstLetter(wordField) + ":",
+                wordMethods.cutString(subfieldValue),
+                inline
+              );
+            }
           }
         } else {
           wotdEmbed.addField(
