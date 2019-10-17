@@ -1,5 +1,4 @@
 auth.json
-scraper.js
 
 logs/combined.log
 logs/error.log
@@ -12,4 +11,4 @@ playground/test.json
 .vscode
 .logs
 .content
-
+node_modules/

@@ -1,0 +1,2156 @@
+{
+    "rünnak": [
+        {
+            "word": "rünnak",
+            "english": "attack",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "rünnak",
+                    "rünnaku",
+                    "rünnakut"
+                ],
+                "plural": [
+                    "rünnakud",
+                    "rünnakute",
+                    "rünnakuid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "see, kui keegi kedagi ründab"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Tudeng langes rünnaku ohvriks.",
+                    "Sõjavägi alustas rünnakut."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "saatma": [
+        {
+            "word": "saatma",
+            "english": "to send, to see off, to accompany (as in, 'ma saadan su ära', I'll see you off)",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "saatma",
+                    "saata",
+                    "saadab",
+                    "saadetud",
+                    "saatis",
+                    "saatnud",
+                    "saatmine",
+                    "saatmise",
+                    "saatmist"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "kellegagi liikumisel kaasas käima või kaasa minema, näiteks seltsiks või kaitseks",
+                    "midagi kuhugi teele panema",
+                    "kedagi või midagi mingil põhjusel kuhugi suunama",
+                    "kellegi laulule või muusikale (taustaks) kaasa laulma või mängima"
+                ],
+                "collocations": [
+                    "pensionile saatma"
+                ],
+                "collocations_sentences": [
+                    "Tahtsin üksi minna, kuid sõber tuli mind saatma.",
+                    "Presidenti saadavad visiidil turvamehed.",
+                    "Ma saadan su koju.",
+                    "Tahan Londonisse pakki saata.",
+                    "Mulle saadeti Prantsusmaalt kiri.",
+                    "Saatsime kutsed postiga / posti teel.",
+                    "Saatke mulle takso.",
+                    "Ta saatis mu vett tooma.",
+                    "Töötaja saadeti pensionile.",
+                    "Lauljat saatis orkester.",
+                    "Kui palju paki saatmine maksab?"
+                ],
+                "governments": [
+                    "mida tegema"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "sall": [
+        {
+            "word": "sall",
+            "english": "Scarf",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "sall",
+                    "salli",
+                    "salli"
+                ],
+                "plural": [
+                    "sallid",
+                    "sallide",
+                    "salle"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "pikk ja kitsas riideese, mida sa ümber kaela kannad"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Pane sall kaela, õues on külm."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sattuma": [
+        {
+            "word": "sattuma",
+            "english": "to come upon, to get into an unexpected situation",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "sattuma",
+                    "sattuda",
+                    "satub",
+                    "sattuma",
+                    "sattuda",
+                    "sattub",
+                    "sattutud"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "as in, 'Me sattusime kuidagi Lasnamäele', We arrived to Lasnamäe somehow"
+                ],
+                "sentences": [
+                    "juhuslikult mingisse kohta või mingile üritusele jõudma",
+                    "mingisse olukorda või (vaimsesse) seisundisse jõudma",
+                    "(juhuslikult) kellegi valdusesse jõudma"
+                ],
+                "collocations": [
+                    "raskustesse sattuma",
+                    "segadusse sattuma"
+                ],
+                "collocations_sentences": [
+                    "Sattusin ootamatult jõe äärde.",
+                    "Eile sattusime lõbusale peole.",
+                    "Ta sattus ühte põnevat filmi vaatama.",
+                    "Reklaam sattus kriitika alla.",
+                    "Ma sattusin segadusse.",
+                    "Salajased dokumendid sattusid ajakirjaniku kätte."
+                ],
+                "governments": [
+                    "kuhu",
+                    "mida tegema",
+                    "mille alla",
+                    "kelle kätte"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "sedavõrd": [
+        {
+            "word": "sedavõrd",
+            "english": "to that degree, such, so",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "määrsõna",
+            "declensions": {
+                "singular": [
+                    "seda+võrd"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "sel määral, niivõrd"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Sõitjaid oli sedavõrd palju, et meie enam peale ei mahtunud.",
+                    "Oskan soome keelt sedavõrd, et ei vaja sõnaraamatu abi."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sein": [
+        {
+            "word": "sein",
+            "english": "Wall",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "sein",
+                    "seina",
+                    "seina",
+                    "seina"
+                ],
+                "plural": [
+                    "seinad",
+                    "seinte",
+                    "seinu"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "hoone või toa külg"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Toal on neli seina, põrand ja lagi.",
+                    "Värvisime seinad kollaseks.",
+                    "Riputasin elutoa seinale pildi."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sekka": [
+        {
+            "word": "sekka",
+            "english": "into a company, coming together with sb, into the middle of",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "kaassõna",
+            "declensions": {
+                "singular": [
+                    "sekka"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "mingisse gruppi, kellegi keskele",
+                    "as in, 'Suur juht astus rahvahulga sekka - the great leader stepped into the crowd"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Ta kuulub Eesti parimate kunstnike sekka."
+                ],
+                "governments": [
+                    "kelle-mille"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "selguma": [
+        {
+            "word": "selguma",
+            "english": "to become clear, to turn out to be, to become understandable",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "selguma",
+                    "selguda",
+                    "selgub"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "selgeks saama, ilmnema",
+                    "as in, 'Küll homme selgub, kes viina pihta pani' - It will become clear tomorrow, who stole the vodka"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Konkursi tulemused ei ole veel selgunud.",
+                    "Varsti selgub, kas sõidan reisile või mitte.",
+                    "Uuringust selgus palju huvitavat."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sepp": [
+        {
+            "word": "sepp",
+            "english": "smith",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "sepp",
+                    "sepa",
+                    "seppa"
+                ],
+                "plural": [
+                    "sepad",
+                    "seppade",
+                    "seppi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "inimene, kelle töö on rauast esemeid valmistada ja parandada"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Poiss tahtis sepaks saada."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "siiras": [
+        {
+            "word": "siiras",
+            "english": "sincere",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "siiras",
+                    "siira",
+                    "siirast"
+                ],
+                "plural": [
+                    "siirad",
+                    "siiraste",
+                    "siiraid"
+                ],
+                "comparisons": [
+                    "siiram"
+                ]
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "selline, kes näitab ausalt välja, mida ta mõtleb ja tunneb",
+                    "tõeline, mitte teeseldud"
+                ],
+                "collocations": [
+                    "siiras rõõm",
+                    "siiras soov",
+                    "siiras huvi"
+                ],
+                "collocations_sentences": [
+                    "Lapsed on siirad.",
+                    "Tema kurbus on täiesti siiras."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sulama": [
+        {
+            "word": "sulama",
+            "english": "to melt",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "sulama",
+                    "sulada",
+                    "sulab"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "soojuse mõjul vedelaks muutuma"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Lumi sulab kevadel.",
+                    "Kui jää sulab, on ohtlik järvele minna.",
+                    "Suhkur sulas vees."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "suuresti": [
+        {
+            "word": "suuresti",
+            "english": "largely, greatly, highly",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "määrsõna",
+            "declensions": {
+                "singular": [
+                    "suuresti"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "suurel määral, üsna palju"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Oled juhtunus suuresti ise süüdi.",
+                    "Korterite hinnad sõltuvad suuresti asukohast."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "suvine": [
+        {
+            "word": "suvine",
+            "english": "summerly, summer",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "suvine",
+                    "suvise",
+                    "suvist"
+                ],
+                "plural": [
+                    "suvised",
+                    "suviste",
+                    "suviseid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "suvele omane",
+                    "suvel toimuv või kasutatav"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "suvine ilm",
+                    "suvine töö",
+                    "suvine puhkus"
+                ],
+                "collocations_sentences": [
+                    "Suvine päike on väga kuum.",
+                    "Ta kandis kerget suvist kleiti."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "sõlm": [
+        {
+            "word": "sõlm",
+            "english": "tie, knot",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "sõlm",
+                    "sõlme",
+                    "sõlme",
+                    "sõlme"
+                ],
+                "plural": [
+                    "sõlmed",
+                    "sõlmede",
+                    "sõlmi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "kinnitus (kahest) nöörist või paelast"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "sõlme siduma"
+                ],
+                "collocations_sentences": [
+                    "Seo kaks nööri tugeva sõlmega kokku.",
+                    "Sidusin rätiku lõua alt sõlme."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "tagant": [
+        {
+            "word": "tagant",
+            "english": "from the back, from behind",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "kaassõna",
+            "declensions": {
+                "singular": [
+                    "tagant"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "sellest kohast või suunast, mis jääb selja poole",
+                    "millegi teiselt poolt (nii, et see enam ei varja)",
+                    "kordudes teatud ajavahemiku või vahemaa järel",
+                    "mingi eseme juurest eemale"
+                ],
+                "collocations": [
+                    "laua tagant",
+                    "arvuti tagant"
+                ],
+                "collocations_sentences": [
+                    "Tagant lähenes meile mootorratas.",
+                    "Su pluus on tagant must.",
+                    "Lühike mees ei näinud teiste tagant lavale.",
+                    "Maja tagant jooksis välja suur koer.",
+                    "Päike tuli pilve tagant välja.",
+                    "Ostan iga kolme aasta tagant uue telefoni.",
+                    "Matkal tegime peatuse iga paari kilomeetri tagant.",
+                    "Poissi ei saa kuidagi arvuti tagant ära."
+                ],
+                "governments": [
+                    "kelle-mille",
+                    "mille",
+                    "mille"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "tagatis": [
+        {
+            "word": "tagatis",
+            "english": "guarantee, warranty",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "tagatis",
+                    "tagatise",
+                    "tagatist"
+                ],
+                "plural": [
+                    "tagatised",
+                    "tagatiste",
+                    "tagatisi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "kinnisvara või midagi muud väärtuslikku, mille sa pead ära andma, kui ei suuda laenatud raha tagasi maksta"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Laenu tagatiseks oli korter."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "tahe": [
+        {
+            "word": "tahe",
+            "english": "will, want, desire",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "tahe",
+                    "tahte",
+                    "tahet"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "vaimne jõud, mille abil sa teed otsuseid ja valikuid ning pingutad, et oma eesmärki saavutada",
+                    "tahtmine"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "tugev tahe",
+                    "kindel tahe",
+                    "vaba tahe"
+                ],
+                "collocations_sentences": [
+                    "Tal puudub tahe olukorda muuta."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "teadus": [
+        {
+            "word": "teadus",
+            "english": "Science",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "teadus",
+                    "teaduse",
+                    "teadust"
+                ],
+                "plural": [
+                    "teadused",
+                    "teaduste",
+                    "teadusi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "tegevus, mille eesmärk on uute (faktidel põhinevate) teadmiste saamine ja kasutusele võtmine"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Raamat käsitleb teaduse ja tehnika arengut.",
+                    "Bioloogia on teadus, mis uurib elu."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "tegutsema": [
+        {
+            "word": "tegutsema",
+            "english": "to act, to do, to do work (frequently)",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "tegutsema",
+                    "tegutseda",
+                    "tegutseb",
+                    "tegutsetud",
+                    "tegutsemine",
+                    "tegutsemise",
+                    "tegutsemist"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "(as in, 'mulle meeldib aias tegutseda' - I like to do work in the garden)"
+                ],
+                "sentences": [
+                    "midagi (aktiivselt) tegema",
+                    "töötama, mingi töö või tegevusega pidevalt seotud olema"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Peame kiiresti tegutsema, et õnnetust ära hoida.",
+                    "Linnas tegutseb kaks kooli.",
+                    "Ta tegutseb ettevõtjana.",
+                    "Olukord nõudis kiiret tegutsemist."
+                ],
+                "governments": [
+                    "kellena"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "teke": [
+        {
+            "word": "teke",
+            "english": "creation, origin, birth (not used for living things)",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "teke",
+                    "tekke",
+                    "teket"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "tekkimine, alguse saamine"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Teadlased uurivad elu teket Maal.",
+                    "Tulekahju tekke põhjus pole veel teada."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "telk": [
+        {
+            "word": "telk",
+            "english": "tent",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "telk",
+                    "telgi",
+                    "telki",
+                    "telki"
+                ],
+                "plural": [
+                    "telgid",
+                    "telkide",
+                    "telke"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "väike riidest maja, mille sees saab näiteks matkal magada"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "telki üles panema",
+                    "telki kokku panema"
+                ],
+                "collocations_sentences": [
+                    "Panime telgi üles.",
+                    "Hommikul panime telgi kiiresti kokku."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "tigu": [
+        {
+            "word": "tigu",
+            "english": "snail",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "tigu",
+                    "teo",
+                    "tigu"
+                ],
+                "plural": [
+                    "teod",
+                    "tigude",
+                    "tigusid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "väike pehme loom, kellel on selja peal teatud kõva osa, mille sisse ta ennast tõmmata saab"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Aias on palju tigusid."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "toetuma": [
+        {
+            "word": "toetuma",
+            "english": "to lean on something, to stand up next to something, to rely on, to rely",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "toetuma",
+                    "toetuda",
+                    "toetub"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "as in, 'ma toetusin vasta seina' - I leaned against the wall"
+                ],
+                "sentences": [
+                    "end millegi vastu või millegi peale toetama",
+                    "tuge leidma",
+                    "lähtuma"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Proovisin haigele jalale mitte toetuda.",
+                    "Ta toetus seljaga vastu seina.",
+                    "Sõpradele võib alati toetuda.",
+                    "Minu väide toetub faktidele."
+                ],
+                "governments": [
+                    "millele",
+                    "vastu mida",
+                    "mille vastu",
+                    "kellele-millele"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "torkama": [
+        {
+            "word": "torkama",
+            "english": "to poke, to prick, to stab, to jab",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "torkama",
+                    "torgata",
+                    "torkab",
+                    "torgatud"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "millegi teravat otsa kuskile sisse suruma"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Torkasin liha varda otsa.",
+                    "Torkasin nõelaga kogemata sõrme."
+                ],
+                "governments": [
+                    "millega"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "tüli": [
+        {
+            "word": "tüli",
+            "english": "quarrel, strife, conflict",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "tüli",
+                    "tüli",
+                    "tüli",
+                    "tülli"
+                ],
+                "plural": [
+                    "tülid",
+                    "tülide",
+                    "tülisid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "vihane vaidlus",
+                    "vaev, raskus"
+                ],
+                "collocations": [
+                    "tüli tekib",
+                    "tüli tõuseb",
+                    "tüli puhkeb",
+                    "tülli minema",
+                    "tülli ajama",
+                    "tülis olema"
+                ],
+                "collocations_sentences": [
+                    "Millest tüli alguse sai?",
+                    "Üritan tülisid vältida.",
+                    "Omaniku ja üürniku vahel tekkis suur tüli.",
+                    "Nad lähevad iga väikse asja pärast tülli.",
+                    "Sugulased on omavahel tülis.",
+                    "Lastega oli palju tüli.",
+                    "Ma ei tahaks teile tüli teha."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "uriin": [
+        {
+            "word": "uriin",
+            "english": "urine (kinda a polite term, in colloquial/informal situations, 'kusi' is prefered, which is also used in a lot of medical terms, like 'kusepõis' - bladder)",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "uriin",
+                    "uriini",
+                    "uriini"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "neerudes tekkiv kollane vedelik, mis viib kehast välja ained, mida organismile vaja ei ole"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Sportlase uriinist leiti keelatud aineid."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "uss": [
+        {
+            "word": "uss",
+            "english": "worm, snake",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "uss",
+                    "ussi",
+                    "ussi"
+                ],
+                "plural": [
+                    "ussid",
+                    "usside",
+                    "usse"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "pika kehaga väike loom, kellel ei ole jalgu ega selgroogu",
+                    "pika kehaga loom, kellel on selgroog, aga ei ole jalgu"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Õuna sees on uss.",
+                    "Linnud otsisid usse.",
+                    "Uss hammustas poissi jalga."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "vaas": [
+        {
+            "word": "vaas",
+            "english": "vase",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "vaas",
+                    "vaasi",
+                    "vaasi",
+                    "vaasi"
+                ],
+                "plural": [
+                    "vaasid",
+                    "vaaside",
+                    "vaase"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "ese, milles saab vee sees hoida lõigatud lilli"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Laual oli vaas roosidega."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "vabanema": [
+        {
+            "word": "vabanema",
+            "english": "to become free, to become free of, to get rid of",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "vabanema",
+                    "vabaneda",
+                    "vabaneb"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "mingi segava, häiriva nähtuse kadumist saavutama",
+                    "vanglast välja pääsema",
+                    "kohustustest vabaks saama"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Arst andis soovitusi, kuidas stressist vabaneda.",
+                    "Püüan halbadest harjumustest vabaneda.",
+                    "Kurjategija vabanes vanglast.",
+                    "Oota mind, ma vabanen tunni aja pärast."
+                ],
+                "governments": [
+                    "millest",
+                    "kust"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "vaesus": [
+        {
+            "word": "vaesus",
+            "english": "poverty, poorness, being poor",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "vaesus",
+                    "vaesuse",
+                    "vaesust"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "seisund, mille korral inimesel pole piisavalt raha ega vara"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Pere elas vaesuses."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "vahelt": [
+        {
+            "word": "vahelt",
+            "english": "from inbetween, out of",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "kaassõna",
+            "declensions": {
+                "singular": [
+                    "vahelt"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "kahe inimese või asja vaheliselt kohalt või vahelisest kohast"
+                ],
+                "sentences": [
+                    "used in phrases like 'to take one's cut', as in 'ma võtsin viis euri vahelt' - I took 5 euros as a cut",
+                    "from inbetween, out of, as in 'ma vaatasin kardinate vahelt välja' - I looked out from inbetween the curtains"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Õpikus on paar lehte vahelt kadunud.",
+                    "Jooksin inimeste vahelt läbi.",
+                    "Leidsin raamatu vahelt raha."
+                ],
+                "governments": [
+                    "kelle-mille"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "vahetu": [
+        {
+            "word": "vahetu",
+            "english": "direct, immediate, sincere, honest",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "vahetu",
+                    "vahetu",
+                    "vahetut"
+                ],
+                "plural": [
+                    "vahetud",
+                    "vahetute",
+                    "vahetuid"
+                ],
+                "comparisons": [
+                    "vahetum",
+                    "vahetult"
+                ]
+            },
+            "examples": {
+                "explanations": [
+                    "otsene",
+                    "ilma vahepeal oleva astmeta"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Maja asub pargi vahetus läheduses.",
+                    "Ametniku tööd hindab tema vahetu ülemus.",
+                    "Mina direktoriga vahetult kokku ei puutu."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "vaikima": [
+        {
+            "word": "vaikima",
+            "english": "to become silent, to be silent, to calm down, to stop",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "vaikima",
+                    "vaikida",
+                    "vaikib"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "vait olema või jääma",
+                    "mitte rääkima",
+                    "as in 'torm vaikis' - the storm calmed down"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Ütle ometi midagi, mis sa vaikid!",
+                    "Lõpuks muusika vaikis."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "vajadus": [
+        {
+            "word": "vajadus",
+            "english": "need (as in Maslow's hierarchy)",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "vajadus",
+                    "vajaduse",
+                    "vajadust"
+                ],
+                "plural": [
+                    "vajadused",
+                    "vajaduste",
+                    "vajadusi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "(millegi vajaliku puudumisest tulenev) seisund, mis nõuab, et midagi tuleb teha",
+                    "tahtmine midagi saada või teha"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "isiklikud vajadused",
+                    "vajadusi rahuldama"
+                ],
+                "collocations_sentences": [
+                    "Taimi tuleb kasta vajaduse järgi.",
+                    "Tekkis vajadus uuenduste järele.",
+                    "Tal on suur vajadus tunnustuse järele.",
+                    "Tundsin vajadust kellegagi rääkida."
+                ],
+                "governments": [
+                    "mille järele",
+                    "mida teha"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "valge": [
+        {
+            "word": "valge",
+            "english": "White, Light",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "valge",
+                    "valge",
+                    "valget"
+                ],
+                "plural": [
+                    "valged",
+                    "valgete",
+                    "valgeid"
+                ],
+                "comparisons": [
+                    "valgem"
+                ]
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "(võrdlus puudub) lume ja piima värvi",
+                    "(piisava) valgusega"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Pruut kandis valget kleiti.",
+                    "Jõuluvanal oli pikk valge habe.",
+                    "Väljas on veel valge, pole vaja tuld põlema panna.",
+                    "Tänu suurele aknale on see tuba valgem kui teised."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "varas": [
+        {
+            "word": "varas",
+            "english": "thief",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "varas",
+                    "varga",
+                    "varast"
+                ],
+                "plural": [
+                    "vargad",
+                    "varaste",
+                    "vargaid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "inimene, kes varastab, teiste asju salaja ära võtab"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Vargad viisid korterist minema arvuti ja sularaha."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "varjama": [
+        {
+            "word": "varjama",
+            "english": "to hide, to cover, to cover up",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "varjama",
+                    "varjata",
+                    "varjab",
+                    "varjatud"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "millelgi ees olema, nii et seda pole näha",
+                    "kaitseks millegi ees olema, kaitsma",
+                    "peitma",
+                    "midagi saladuses hoidma"
+                ],
+                "collocations": [
+                    "fakte varjama",
+                    "tõsiasju varjama",
+                    "infot varjama"
+                ],
+                "collocations_sentences": [
+                    "Pilv varjas päikese.",
+                    "Kõrged majad varjavad vaadet merele.",
+                    "Kübar varjab nägu päikese eest.",
+                    "Tagaotsitav suutis end kolm aastat varjata.",
+                    "Kas valitsus varjab tõde?"
+                ],
+                "governments": [
+                    "mille eest"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "vihik": [
+        {
+            "word": "vihik",
+            "english": "textbook",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "vihik",
+                    "vihiku",
+                    "vihikut"
+                ],
+                "plural": [
+                    "vihikud",
+                    "vihikute",
+                    "vihikuid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "pehmete kaante vahele kinnitatud paberist lehed, kuhu õpilased koolis kirjutavad"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "ruuduline vihik"
+                ],
+                "collocations_sentences": [
+                    "Matemaatika tunnis kasutame ruudulist vihikut."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "värvus": [
+        {
+            "word": "värvus",
+            "english": "colour",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "värvus",
+                    "värvuse",
+                    "värvust"
+                ],
+                "plural": [
+                    "värvused",
+                    "värvuste",
+                    "värvusi",
+                    "värvuseid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "värv",
+                    "värvi konkreetne toon"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Vesi oli imeliku pruuni värvusega."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õhk": [
+        {
+            "word": "õhk",
+            "english": "air",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "õhk",
+                    "õhu",
+                    "õhku",
+                    "õhku"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "Maad ümbritsev gaaside segu, mida me hingame",
+                    "maapinnast kõrgemale jääv ala",
+                    "väljendites:"
+                ],
+                "collocations": [
+                    "värske õhk",
+                    "kuiv õhk",
+                    "niiske õhk",
+                    "vabas õhus",
+                    "õhku tõusma",
+                    "õhku laskma",
+                    "õhku lendama"
+                ],
+                "collocations_sentences": [
+                    "Soe õhk tõuseb üles.",
+                    "Tee aken lahti, et tuleks värsket õhku.",
+                    "Etendus toimus vabas õhus.",
+                    "Kuidas lennuk õhus püsib?",
+                    "Helikopter tõusis õhku.",
+                    "Sild lasti õhku.",
+                    "Auto lendas õhku."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õige": [
+        {
+            "word": "õige",
+            "english": "Correct, Right",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "õige",
+                    "õige",
+                    "õiget"
+                ],
+                "plural": [
+                    "õiged",
+                    "õigete",
+                    "õigeid"
+                ],
+                "comparisons": [
+                    "õigem"
+                ]
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "selline, mis vastab tegelikkusele",
+                    "korrektne, ilma vigadeta",
+                    "selline, nagu antud olukorras vajalik, otstarbekas"
+                ],
+                "collocations": [
+                    "õige suund",
+                    "õige tee",
+                    "õige valik",
+                    "õige samm"
+                ],
+                "collocations_sentences": [
+                    "Jutusta sündmustest õiges järjekorras.",
+                    "Vali õige vastus.",
+                    "Panin kella õigeks.",
+                    "Tee nii, nagu õigeks pead.",
+                    "Need pole vihmase ilma jaoks õiged saapad."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õpe": [
+        {
+            "word": "õpe",
+            "english": "study",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "õpe",
+                    "õppe",
+                    "õpet"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "õpetamine või õppimine",
+                    "mõlemad koos"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "tasuline õpe"
+                ],
+                "collocations_sentences": [
+                    "Ülikoolis jätkub avalduste vastuvõtt tasulisse õppesse."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õpilane": [
+        {
+            "word": "õpilane",
+            "english": "Student, Pupil",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "õpilane",
+                    "õpilase",
+                    "õpilast"
+                ],
+                "plural": [
+                    "õpilased",
+                    "õpilaste",
+                    "õpilasi"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "laps või noor inimene, kes õpib koolis"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "andekas õpilane",
+                    "edukas õpilane",
+                    "hea õpilane",
+                    "tubli õpilane"
+                ],
+                "collocations_sentences": [
+                    "Martin on 6. klassi õpilane.",
+                    "Õpetaja kutsus endised õpilased külla."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õrn": [
+        {
+            "word": "õrn",
+            "english": "gentle, tender",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "õrn",
+                    "õrna",
+                    "õrna"
+                ],
+                "plural": [
+                    "õrnad",
+                    "õrnade",
+                    "õrnu"
+                ],
+                "comparisons": [
+                    "õrnem"
+                ]
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "hooliv ja südamlik",
+                    "tundlik"
+                ],
+                "collocations": [
+                    "õrn hääl",
+                    "õrn pilk"
+                ],
+                "collocations_sentences": [
+                    "Ta on oma lapsega väga õrn.",
+                    "Tal on õrn nahk.",
+                    "Luuletaja oli õrna hingega."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "õu": [
+        {
+            "word": "õu",
+            "english": "outside, yard (of a house), the land between a house and any other building",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "õu",
+                    "õue",
+                    "õue",
+                    "õue"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "ala väljaspool hoonet, mis on piiratud näiteks teiste hoonete, müüri või aiaga",
+                    "(used mostly in the locative cases, 'ma lähen õue' - I'm going outside)"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Talu õuel kasvab suur tamm."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ämber": [
+        {
+            "word": "ämber",
+            "english": "bucket, pail",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "ämber",
+                    "ämbri",
+                    "ämbrit"
+                ],
+                "plural": [
+                    "ämbrid",
+                    "ämbrite",
+                    "ämbreid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "anum, milles saab kanda vedelikku, liiva või muud"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Võtsin kaevust ämbriga vett.",
+                    "Ämber on marju täis."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ärapõlema": [
+        {
+            "word": "ära põlema",
+            "english": "to burn up",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "ära põlema",
+                    "ära põleda",
+                    "põleb ära"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "täielikult, lõpuni põlema"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Kaminas on puud juba ära põlenud."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ärevus": [
+        {
+            "word": "ärevus",
+            "english": "anxiety",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "ärevus",
+                    "ärevuse",
+                    "ärevust",
+                    "ärevusse"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "närviline tunne, mis sul tekib, kui arvad, et võib juhtuda midagi halba või kui midagi väga ootad"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "ärevust tekitama",
+                    "ärevust tundma"
+                ],
+                "collocations_sentences": [
+                    "Kuritegu ajas inimesed ärevusse.",
+                    "Laps ootas ärevusega jõuluvana tulekut.",
+                    "Lähenev eksam tekitas kõigis suurt ärevust."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "äärde": [
+        {
+            "word": "äärde",
+            "english": "up to something, to the side",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "kaassõna",
+            "declensions": {
+                "singular": [
+                    "äärde"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "millegi vahetusse lähedusse, juurde või kõrvale"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "mere äärde",
+                    "järve äärde",
+                    "jõe äärde"
+                ],
+                "collocations_sentences": [
+                    "Auto jäi tee äärde seisma.",
+                    "Siit läheb rada mere äärde."
+                ],
+                "governments": [
+                    "mille"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "öine": [
+        {
+            "word": "öine",
+            "english": "nightly, lunar",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "öine",
+                    "öise",
+                    "öist"
+                ],
+                "plural": [
+                    "öised",
+                    "öiste",
+                    "öiseid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "öösel toimuv või esinev"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "öine uni",
+                    "öine taevas"
+                ],
+                "collocations_sentences": [
+                    "Ta töötab öises vahetuses.",
+                    "Meie naabrid kuulavad öisel ajal kõvasti muusikat."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ööbima": [
+        {
+            "word": "ööbima",
+            "english": "to stay the night, to sleep",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "ööbima",
+                    "ööbida",
+                    "ööbib"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "kui keegi kuskil ööbib, siis ta veedab selles kohas öö"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Me ööbisime hotellis.",
+                    "Ööbin oma tuttavate juures."
+                ],
+                "governments": [
+                    "kus",
+                    "kelle juures"
+                ]
+            },
+            "didPosted": false
+        }
+    ],
+    "ühine": [
+        {
+            "word": "ühine",
+            "english": "common, the same",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "ühine",
+                    "ühise",
+                    "ühist"
+                ],
+                "plural": [
+                    "ühised",
+                    "ühiste",
+                    "ühiseid",
+                    "ühiselt"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "selline, mis seob omavahel kahte või enamat inimest või mis kuulub kahele või enamale inimesele",
+                    "mitmekesi, koos tehtav"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "ühised huvid",
+                    "ühised arusaamad",
+                    "ühised seisukohad",
+                    "ühised väärtused",
+                    "ühine töö"
+                ],
+                "collocations_sentences": [
+                    "Meil on palju ühist, millest rääkida.",
+                    "Tal ei ole oma abikaasaga ühiseid lapsi.",
+                    "Ühise töö tulemused avaldatakse raamatuna.",
+                    "Tegime töö ühiselt ära."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "üksnes": [
+        {
+            "word": "üksnes",
+            "english": "only, solely",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "määrsõna",
+            "declensions": {
+                "singular": [
+                    "üksnes"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "ainult, vaid"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Olin Soomes üksnes kaks päeva.",
+                    "Ta käib tööl üksnes raha pärast."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "üleelama": [
+        {
+            "word": "üleelama",
+            "english": "to live through, to survive",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "üle elama",
+                    "üle elada",
+                    "elab üle"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "mingites tingimustes vastu pidama",
+                    "ellu jääma"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "See taim ei elanud talve üle."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ülem": [
+        {
+            "word": "ülem",
+            "english": "Commander",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "ülem",
+                    "ülema",
+                    "ülemat"
+                ],
+                "plural": [
+                    "ülemad",
+                    "ülemate",
+                    "ülemaid"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "inimene, kes on kõrgemal positsioonil",
+                    "juht, juhataja",
+                    "kõrgem, kõrgemasse astmesse kuuluv"
+                ],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Ülema ja alluvate vahel on head suhted.",
+                    "Martin määrati väeosa ülemaks.",
+                    "Otsus kaevati edasi ülema astme kohtusse."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ületama": [
+        {
+            "word": "ületama",
+            "english": "to surpass",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "tegusõna",
+            "declensions": {
+                "singular": [
+                    "ületama",
+                    "ületada",
+                    "ületab",
+                    "ületatud"
+                ],
+                "plural": [],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [],
+                "sentences": [
+                    "mingist piirist või määrast suurem olema",
+                    "millestki üle minema"
+                ],
+                "collocations": [
+                    "kiirust ületama",
+                    "sõiduteed ületama",
+                    "tänavat ületama"
+                ],
+                "collocations_sentences": [
+                    "Preemia ei tohi ületada kahe kuu palka.",
+                    "Firma kulud ületasid tulusid.",
+                    "Auto ületas kiirust.",
+                    "Ületasime Eesti ja Läti piiri.",
+                    "Sain trahvi, sest ületasin vales kohas sõiduteed."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "ümar": [
+        {
+            "word": "ümar",
+            "english": "Round",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "omadussõna",
+            "declensions": {
+                "singular": [
+                    "ümar",
+                    "ümara",
+                    "ümarat"
+                ],
+                "plural": [
+                    "ümarad",
+                    "ümarate",
+                    "ümaraid"
+                ],
+                "comparisons": [
+                    "ümaram"
+                ]
+            },
+            "examples": {
+                "explanations": [
+                    "ümmargune, (osaliselt) palli või ringi kujuga"
+                ],
+                "sentences": [],
+                "collocations": [
+                    "ümar nägu"
+                ],
+                "collocations_sentences": [
+                    "Kas ostame ümara või kandilise akvaariumi?"
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ],
+    "üürnik": [
+        {
+            "word": "üürnik",
+            "english": "tenant",
+            "homonym": "",
+            "is_plural": false,
+            "part_of_speech": "nimisõna",
+            "declensions": {
+                "singular": [
+                    "üürnik",
+                    "üürniku",
+                    "üürnikku"
+                ],
+                "plural": [
+                    "üürnikud",
+                    "üürnike",
+                    "üürnikke"
+                ],
+                "comparisons": []
+            },
+            "examples": {
+                "explanations": [
+                    "inimene, kes üürib kelleltki ruume, näiteks korterit"
+                ],
+                "sentences": [],
+                "collocations": [],
+                "collocations_sentences": [
+                    "Selle maja üürnikud maksavad oma üüri alati õigel ajal."
+                ],
+                "governments": []
+            },
+            "didPosted": false
+        }
+    ]
+}
