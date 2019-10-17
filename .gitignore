@@ -11,4 +11,4 @@ playground/test.json
 .vscode
 .logs
 .content
-
+node_modules/
