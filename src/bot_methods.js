@@ -1,4 +1,4 @@
-const WORDS_FILE_PATH = "./data/wordsRound3_onlyTranslated.json"; // translated words filepath
+const WORDS_FILE_PATH = "./data/wordsRound4.json"; // translated words filepath
 const wordsTranslated = require(WORDS_FILE_PATH); // contains translated words
 const dictionaryWords = require("./data/dictionary_words_um.json"); // contains all words
 const Discord = require("discord.js");
@@ -38,7 +38,7 @@ function sendWordOfTheDay(message, updateWordStatus = false) {
 
   // if word exists, format it (using discord's rich embed) and send in chat
   if (word != null) {
-    sendCustomWord(message, word.word, isWotd = true);
+    sendCustomWord(message, word.word, (isWotd = true));
     if (updateWordStatus === true) {
       // set the word as didPosted in the file
       jsonMethods.saveToJSONFile(words, WORDS_FILE_PATH);
@@ -107,8 +107,8 @@ function sendCustomWord(message, word, isWotd = false) {
                 subfieldValue[2] = "(Par):   " + subfieldValue[2];
                 break;
             }
-            
-            if (wotdEmbed.fields.length < MAX_NUM_OF_RICH_EMBER_FIELDS){
+
+            if (wotdEmbed.fields.length < MAX_NUM_OF_RICH_EMBER_FIELDS) {
               wotdEmbed.addField(
                 wordMethods.capitalizeFirstLetter(wordField) + ":",
                 subfieldValue,
@@ -249,14 +249,15 @@ function handleCommandStop(message) {
 function handleCommandHelp(message) {
   console.log("Bot helped!");
 
-  let help = "Commands for the word of the day bot:\n" +
-             "```" +
-             "$word x  - Searches word x in the dictionary and posts it if available\n" +
-             "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n" +
-             "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n" +
-             "$goodbot - Shows your appreciation for the bot\n" +
-             "$goodboy - Woof!\n" +
-             "```";
+  let help =
+    "Commands for the word of the day bot:\n" +
+    "```" +
+    "$word x  - Searches word x in the dictionary and posts it if available\n" +
+    "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n" +
+    "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n" +
+    "$goodbot - Shows your appreciation for the bot\n" +
+    "$goodboy - Woof!\n" +
+    "```";
 
   message.channel.send(help);
 }
