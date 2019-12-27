@@ -107,16 +107,20 @@ function addDidPostedFieldAndSave(json, filePath) {
 
 module.exports = {
   saveToJSONFile: saveToJSONFile,
+  getComplement: getComplement,
+  getAndSaveComplement: getAndSaveComplement,
   saveOnlyTranslatedWords: saveOnlyTranslatedWords,
+  copyWordsTranslation: copyWordsTranslation,
+  copyAndSaveWordsTranslation: copyAndSaveWordsTranslation,
   addDidPostedFieldAndSave: addDidPostedFieldAndSave
 };
 
 // test:
-const allWords = require("./data/dictionary_words_um.json");
+// const allWords = require("./data/dictionary_words_um.json");
 // const someWords = require("./data/words2.json");
 
-const TRANSLATED_WORDS_PATH = "./data/wordsRound3_someTranslated.json";
-const translatedWords = require(TRANSLATED_WORDS_PATH);
+// const TRANSLATED_WORDS_PATH = "./data/wordsRound3_someTranslated.json";
+// const translatedWords = require(TRANSLATED_WORDS_PATH);
 // getAndSaveComplement(allWords, someWords, "./data/allWordsWithoutPreviousWOTDWords.json");
 // copyWordsTranslation(allWords, translatedWords)
 // copyAndSaveWordsTranslation(allWords, translatedWords, "./data/dictionary_words_um_translated.json")
