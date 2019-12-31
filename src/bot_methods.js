@@ -1,4 +1,4 @@
-const WORDS_FILE_PATH = "./data/wordsRound4.json"; // translated words filepath
+const WORDS_FILE_PATH = "./data/wordsRound4_shuffled.json"; // translated words filepath
 const wordsTranslated = require(WORDS_FILE_PATH); // contains translated words
 const dictionaryWords = require("./data/dictionary_words_um.json"); // contains all words
 const Discord = require("discord.js");
