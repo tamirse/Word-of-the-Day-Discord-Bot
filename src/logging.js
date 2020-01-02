@@ -26,7 +26,7 @@ function initLogger(){
 function logMessage(discord_message) {
   let logger = initLogger();
   let curDate = new Date();
-  
+
   logger.log({
     level: "info",
     message: discord_message.content,
