@@ -1,0 +1,12 @@
+{
+  "documentation": "add comments to challengeMode, handleLogCommands, handleChallengeMode",
+  "formatting": "add rich embed to the log feature",
+  "error catching": "add proper error methods to the log feature",
+  "confirmation": "add a remove message confirmation",
+  "terminology": "fix terms in challengeMode and handleChallengeMode",
+  "editing": "fix the edit command",
+  "changelog": "added challengeMode, fixed homonyms in sendCustomWord, added log feature",
+  "short illative": "worth adding?",
+  "ümlauts": "they're fucked in some instances",
+  "ä": "ä"
+}
