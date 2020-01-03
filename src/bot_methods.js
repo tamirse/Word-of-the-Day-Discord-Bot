@@ -15,6 +15,7 @@ const MOD_ROLES = ["Administrator", "Moderators", "Moderator", "Bot-operator"]
 const WORD_AMOUNT = Object.keys(wordsTranslated).length; // amount of words in the list
 const STOP = 'stop';
 const NEXT = 'next';
+const TIMEOUT_TIME = 12000; // milliseconds before timing out
 let interval; // interval object for the bot. we declare it here so it would be in the global scope
 
 /**
@@ -303,28 +304,30 @@ function handleCommandHelp(message) {
  */
 function handleChallengeMode(message) {
   let wordCheck = false;
-  let newWord = null;
+  let engWord = null;
+  let estWord = null;
   while (!wordCheck){ // because some words lack english translations, it loops until a word with a translation is found
     let randWord = getRandomWord(message); // placeholder
-    newWord = [randWord["word"], randWord["english"]]; // a word and translation
-    if(newWord[1] != null && newWord[1] !== "") {
+    engWord = randWord["english"]; // a word in english
+    estWord = randWord["word"]; // the same word in estonian
+    if(engWord !== null && engWord !== "") {
       wordCheck = true;
     }
   }
-  console.log(newWord[0] + ": " + newWord[1]);
-  const filter = response => response.content.toLowerCase() == newWord[1].toLowerCase() // the filter for accepting user input.
-    || response.content.toLowerCase() == STOP  // if the user types stop, next or the correct word,
-    || response.content.toLowerCase() == NEXT; // it will return true. otherwise false
-  message.channel.send("Translate: **" + newWord[0] + "**. (type " + STOP + "to end)").then(() => {
-    message.channel.awaitMessages(filter, { maxMatches: 1, time: 15000, errors: ['time'] }) // new message collector which accepts one match, in a certain time limit ('time')
+  console.log("challenge mode ran: " + estWord + ": " + engWord);
+  const filter = response => response.content.toLowerCase() === engWord.toLowerCase() // the filter for accepting user input.
+    || response.content.toLowerCase() === STOP  // if the user types stop, next or the correct word,
+    || response.content.toLowerCase() === NEXT; // it will return true. otherwise false
+  message.channel.send("Translate: **" + estWord + "**. (type " + STOP + " to end)").then(() => {
+    message.channel.awaitMessages(filter, { maxMatches: 1, time: 5000, errors: ['time'] }) // new message collector which accepts one match, in a certain time limit ('time')
       .then(collected => { // this only runs if the filter returns true
         let input = collected.first().content.toLowerCase() ;
-        console.log("Recieved word: " + input);
-        if (input == STOP) { // if the user entered stop
+        console.log("challenge mode input received: " + input);
+        if (input === STOP) { // if the user entered stop
           message.channel.send('All done!');
           return; // ends the message collector
-        } else if (input == NEXT) { // if the user entered 'next'
-          message.channel.send('The answer is: **' + newWord[1] + '**'); // fast-fowards to the next word
+        } else if (input === NEXT) { // if the user entered 'next'
+          message.channel.send('The answer is: **' + engWord + '**'); // fast-fowards to the next word
           handleChallengeMode(message);
         } else {
           message.channel.send(`${collected.first().author} got the correct answer!`);
@@ -332,7 +335,7 @@ function handleChallengeMode(message) {
         }
       })
       .catch(collected => { // runs once the error conditions in the message collector are fulfilled - so, only when time runs out
-        message.channel.send('The answer I have is: **' + newWord[1] + "**");
+        message.channel.send('The answer I have is: **' + engWord + "**");
         handleChallengeMode(message); // runs this same function again
       });
   });

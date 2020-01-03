@@ -12,3 +12,7 @@ playground/test.json
 .logs
 .content
 node_modules/
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/slnx.sqlite
+src/auth.json
