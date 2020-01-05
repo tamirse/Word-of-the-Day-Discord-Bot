@@ -16,3 +16,6 @@ node_modules/
 .vs/slnx.sqlite
 .vs/slnx.sqlite
 src/auth.json
+src/auth.json
+.gitignore
+src/auth.json
