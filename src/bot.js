@@ -26,6 +26,7 @@ bot.on("message", message => {
   // Ignore all bots
   if (message.author.bot) return;
 
+
   // ignore non-command messages
   if (message.content[0] != COMMAND_PREFIX) return;
 
