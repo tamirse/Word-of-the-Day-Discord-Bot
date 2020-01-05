@@ -8,14 +8,11 @@ playground/test.json
 
 # directories
 .tmp.drivedownload
+.vs
 .vscode
 .logs
 .content
 node_modules/
 .vs/VSWorkspaceState.json
 .vs/slnx.sqlite
-.vs/slnx.sqlite
-src/auth.json
-src/auth.json
-.gitignore
 src/auth.json

@@ -206,7 +206,7 @@ function getRandomWord(message)
  */
 function sendRandomWord(message, updateWordStatus = false) {
   let word = getRandomWord(message); //gets a random word
-  sendCustomWord(message, word.word, (isWotd = true));
+  sendCustomWord(message, word.word, (isWotd = false));
   console.log("Word obtained: " + word["word"]);
 }
 
