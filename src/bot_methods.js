@@ -11,6 +11,11 @@ const jsonMethods = require("./json_methods.js");
 const bot = new Discord.Client();
 const MSEC_PER_DAY = 86400000;
 const MAX_NUM_OF_RICH_EMBER_FIELDS = 25;
+const MOD_ROLES = ["Administrator", "Moderators", "Moderator", "Bot-operator"]
+const WORD_AMOUNT = Object.keys(wordsTranslated).length; // amount of words in the list
+const STOP = 'stop';
+const NEXT = 'next';
+const TIMEOUT_TIME = 60000; // milliseconds before timing out
 let interval; // interval object for the bot. we declare it here so it would be in the global scope
 
 /**
@@ -65,14 +70,17 @@ function sendCustomWord(message, word, isWotd = false) {
   }
 
   if (wordObj != null) {
-    const wotdEmbed = new Discord.RichEmbed().setColor("#0099ff");
-
-    if (isWotd) {
-      wotdEmbed.setTitle("__WORD OF THE DAY__: " + wordObj[0]["word"]);
-    }
 
     // Add the word's english translation + any other data that exists
     for (let homonym in wordObj) {
+
+      const wotdEmbed = new Discord.RichEmbed().setColor("#0099ff");
+
+      if (isWotd) {
+        wotdEmbed.setTitle("__WORD OF THE DAY__: " + wordObj[0]["word"]);
+      }
+
+      console.log(homonym);
       let wordObject = wordObj[homonym];
 
       for (let key in wordObject) {
@@ -149,7 +157,7 @@ function checkIfAdmin(message) {
   if (message.member != null) {
     // member field is null if this is a private message
     is_member_mod = message.member.roles.some(r =>
-      ["Administrator", "Moderators", "Moderator"].includes(r.name)
+      MOD_ROLES.includes(r.name)
     );
   }
 
@@ -173,6 +181,33 @@ function handleCommandWotd(message) {
   console.log("Bot sent wotd!");
   //logger.logMessage(message);
   sendWordOfTheDay(message);
+}
+
+/**
+ * passes out a random word
+ * @param {Message} message
+ */
+function getRandomWord(message)
+{
+  let words = wordsTranslated;
+  let word = null;
+
+  // get word
+  let wordKeys = Object.keys(words);
+  let randomWordIndex = Math.floor(Math.random() * WORD_AMOUNT); // a random number for picking a key
+  word = words[wordKeys[randomWordIndex]][0]; // pick word
+  return word;
+}
+
+/**
+ * Handles the "random" command
+ * sends random word
+ * @param {Message} message discord message object
+ */
+function sendRandomWord(message, updateWordStatus = false) {
+  let word = getRandomWord(message); //gets a random word
+  sendCustomWord(message, word.word, (isWotd = false));
+  console.log("Word obtained: " + word["word"]);
 }
 
 /**
@@ -255,11 +290,92 @@ function handleCommandHelp(message) {
     "$word x  - Searches word x in the dictionary and posts it if available\n" +
     "$start - Starts automatic sending the word of the day - once a day, from current time (requires moderator permissions)\n" +
     "$stop  - Stops automatic sending the word of the day (requires moderator permissions)\n" +
+    "$hitme - Starts challenge mode - define randomly picked words within a time limit\n" +
+    "$random - Sends a random word in the chat\n" +
     "$goodbot - Shows your appreciation for the bot\n" +
     "$goodboy - Woof!\n" +
     "```";
 
   message.channel.send(help);
+}
+
+/**
+ * Checks for timeout - whether it's been too long since last user input.
+ * works as a callback and requires a function as parameter
+ * @param {Message} message
+ * @param {Function} callback
+ */
+function timeOutCallback(message, callback) {
+
+  console.log("timeout check ran!");
+
+  message.channel.fetchMessages({ limit: 30 }) // fetches last messages in channel up to limit
+    .then(messages => {
+      let userMessages = messages.filter(msg => !msg.author.bot); // filters out bot messages
+      let lastMessage = userMessages.first(); // most recent message
+      let timePassed = new Date().getTime() - lastMessage.createdTimestamp; // finds time between the most recent message and now
+      console.log(timePassed);
+      if (timePassed < TIMEOUT_TIME) { // if too much time has passed with no user input, it automatically terminates the loop
+        callback(message); // runs the original function
+      } else {
+        console.log("Timed out!");
+        message.channel.send("Looks like no one's around. Goodbye!");
+        return;
+      }
+    }).catch(console.error);
+}
+
+/**
+ * Handles the 'hitme' command
+ * continuously provides words to translate
+ * @param {Message} message
+ */
+function handleChallengeMode(message) {
+  callbackMsg = message;
+  timeOutCallback(callbackMsg, function (message) { // checks for timeout
+
+    let wordCheck = false;
+    let engWord = null;
+    let estWord = null;
+
+    while (!wordCheck) { // because some words lack english translations, it loops until a word with a translation is found
+      let randWord = getRandomWord(message); // placeholder
+      engWord = randWord["english"]; // a word in english
+      estWord = randWord["word"]; // the same word in estonian
+      if(engWord !== null && engWord !== "") {
+        wordCheck = true;
+      }
+    }
+
+    console.log("challenge mode ran: " + estWord + ": " + engWord);
+
+    const filter = response => response.content.toLowerCase() === engWord.toLowerCase() // the filter for accepting user input.
+      || response.content.toLowerCase() === STOP  // if the user types stop, next or the correct word,
+      || response.content.toLowerCase() === NEXT; // it will return true. otherwise false
+    message.channel.send("Translate: **" + estWord + "**. (type " + STOP + " to end)").then(() => {
+      message.channel.awaitMessages(filter, { maxMatches: 1, time: 15000, errors: ['time'] }) // new message collector which accepts one match, in a certain time limit ('time')
+        .then(collected => { // this only runs if the filter returns true
+
+            let input = collected.first().content.toLowerCase() ;
+            console.log("challenge mode input received: " + input);
+
+            if (input === STOP) { // if the user entered stop
+              message.channel.send('All done!');
+              return; // ends the message collector
+            } else if (input === NEXT) { // if the user entered 'next'
+              message.channel.send('The answer is: **' + engWord + '**'); // fast-fowards to the next word
+              handleChallengeMode(message);
+            } else {
+              message.channel.send(`${collected.first().author} got the correct answer!`);
+              handleChallengeMode(message); // runs this same function again
+            }
+          })
+        .catch(collected => { // runs once the error conditions in the message collector are fulfilled - so, only when time runs out
+            message.channel.send('The answer I have is: **' + engWord + "**");
+          handleChallengeMode(message); // runs this same function again
+        });
+      });
+  });
 }
 
 /**
@@ -271,6 +387,9 @@ function handleCommands(message) {
   console.log(command);
 
   switch (command) {
+    case "random":// user entered $random, send a random word
+      sendRandomWord(message);
+      break;
     case "wotd": // user entered command "$wotd", send the word of the day in chat
       //handleCommandWotd(message);
       break;
@@ -282,6 +401,9 @@ function handleCommands(message) {
       break;
     case "stop": // user entered command "$stop", stops automatic sending wotd messages
       handleCommandStop(message);
+      break;
+    case "hitme":
+      handleChallengeMode(message);
       break;
     case "goodbot": // thanks user
       console.log("Bot was a good bot!");
