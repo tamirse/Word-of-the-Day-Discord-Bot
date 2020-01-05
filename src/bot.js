@@ -17,20 +17,18 @@ bot.on("ready", () => {
 });
 
 // logs bot errors to the error log file
-bot.on("error", error => {       
+bot.on("error", error => {
   //logger.logMessage("error", error.message);
 });
 
 // Bot listens to chat messages event, taking action on command
 bot.on("message", message => {
   // Ignore all bots
-  if (message.author.bot) return; 
+  if (message.author.bot) return;
 
 
   // ignore non-command messages
   if (message.content[0] != COMMAND_PREFIX) return;
-
-  if (botMethods.checkIfAdmin(message) == false) return;
 
   // take relevant action according to the given command
   botMethods.handleCommands(message);
