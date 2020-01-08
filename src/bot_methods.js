@@ -388,7 +388,7 @@ function handleChallengeMode(message) {
               message.channel.send('The answer is: **' + engWord + '**'); // fast-fowards to the next word
               handleChallengeMode(message);
                 } else {
-              message.channel.send(`${collected.first().author} got the correct answer! **${estWord}**: ${engWord}`);
+              message.channel.send(`**${collected.first().author.username}** got the correct answer! **${estWord}**: ${engWord}`);
               handleChallengeMode(message); // runs this same function again
             }
           })
@@ -424,7 +424,7 @@ function handleCommands(message) {
     case "stop": // user entered command "$stop", stops automatic sending wotd messages
       handleCommandStop(message);
       break;
-    case "hitme":
+    case "hitmef":
       handleChallengeMode(message);
       break;
     case "goodbot": // thanks user
