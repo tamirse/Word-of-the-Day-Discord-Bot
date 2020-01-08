@@ -424,7 +424,7 @@ function handleCommands(message) {
     case "stop": // user entered command "$stop", stops automatic sending wotd messages
       handleCommandStop(message);
       break;
-    case "hitmef":
+    case "hitme":
       handleChallengeMode(message);
       break;
     case "goodbot": // thanks user
