@@ -337,6 +337,7 @@ function handleChallengeMode(message) {
     let wordCheck = false;
     let engWord = null;
     let estWord = null;
+    let definitionFrags = null;
 
     while (!wordCheck) { // because some words lack english translations, it loops until a word with a translation is found
       let randWord = getRandomWord(message); // placeholder
@@ -347,11 +348,32 @@ function handleChallengeMode(message) {
       }
     }
 
+    definitionFrags = engWord.split(", "); // array contatining all possible definition
+
     console.log("challenge mode ran: " + estWord + ": " + engWord);
 
-    const filter = response => response.content.toLowerCase() === engWord.toLowerCase() // the filter for accepting user input.
-      || response.content.toLowerCase() === STOP  // if the user types stop, next or the correct word,
-      || response.content.toLowerCase() === NEXT; // it will return true. otherwise false
+    const filter = function (response) { // the filter function, which resolves the promise in the later message collector
+      if (response.content.toLowerCase() === STOP  // if the user types stop, next or the correct word,
+       || response.content.toLowerCase() === NEXT) { // it will return true. otherwise false
+        return true;
+       }
+      for (let i = 0; i < definitionFrags.length; i++) {
+        let currentDefinition = definitionFrags[i];
+        if (currentDefinition.includes("(") || currentDefinition.includes(")")) { // checks for parentheses
+          let parenStart = currentDefinition.indexOf("("); // stores parentheses start index
+          let parenEnd = currentDefinition.indexOf(")"); // parentheses end index
+          console.log(parenStart);
+          currentDefinition = currentDefinition.substring(0, parenStart) + currentDefinition.substring(parenEnd + 1); // splices out the parenthetical part of the definition
+          currentDefinition = currentDefinition.trim(); // trims whitespaces from it
+          console.log("def " + currentDefinition + ".");
+        }
+        console.log(currentDefinition);
+        if (response.content.toLowerCase() === currentDefinition.toLowerCase()) {
+          return true;
+        }
+      }
+      return false;
+    }
     message.channel.send("Translate: **" + estWord + "**. (type " + STOP + " to end)").then(() => {
       message.channel.awaitMessages(filter, { maxMatches: 1, time: 15000, errors: ['time'] }) // new message collector which accepts one match, in a certain time limit ('time')
         .then(collected => { // this only runs if the filter returns true
@@ -365,8 +387,8 @@ function handleChallengeMode(message) {
             } else if (input === NEXT) { // if the user entered 'next'
               message.channel.send('The answer is: **' + engWord + '**'); // fast-fowards to the next word
               handleChallengeMode(message);
-            } else {
-              message.channel.send(`${collected.first().author} got the correct answer!`);
+                } else {
+              message.channel.send(`**${collected.first().author.username}** got the correct answer! **${estWord}**: ${engWord}`);
               handleChallengeMode(message); // runs this same function again
             }
           })
@@ -402,7 +424,7 @@ function handleCommands(message) {
     case "stop": // user entered command "$stop", stops automatic sending wotd messages
       handleCommandStop(message);
       break;
-    case "hitme":
+    case "hitmef":
       handleChallengeMode(message);
       break;
     case "goodbot": // thanks user
