@@ -9,7 +9,7 @@
     "cheerio": "^1.0.0-rc.2",
     "discord.js": "^11.4.2",
     "event-stream": "3.3.4",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.4",
     "npm": "^6.13.4",
     "request": "^2.88.0",
